@@ -4,6 +4,8 @@ import cargoSnapshot from './data/official-cargo.json';
 import { regions } from './regions';
 import { BoundedCache } from './cache';
 import { readBoundedText } from './upstream';
+import { localNoticeAttachments } from './local-benefit-source';
+import type { LocalBenefitNotice } from './benefit-types';
 
 export type VehicleType = 'passenger' | 'cargo';
 export type Check = { id: string; label: string; passed: boolean };
@@ -16,6 +18,7 @@ export type SubsidyRecord = {
   verification: 'verified' | 'review' | 'stale'; checks: Check[];
   categories: { name: string; announced: number | null; selected: number | null; available: number | null; remaining: number | null }[];
   sourceUrl: string; checkedAt: string; year: number;
+  noticeAttachments?: LocalBenefitNotice[];
 };
 export type SubsidyResponse = {
   records: SubsidyRecord[]; checkedAt: string | null; attemptedAt: string;
@@ -119,6 +122,7 @@ export function normalizeDataset(data: OfficialDataset, type: VehicleType, year:
       status, statusReason, deadline, notice, phone:notice.match(/0\d{1,2}[-)\s]\d{3,4}[-\s]\d{4}/)?.[0] ?? null,
       verification:isStale ? 'stale' : checks.every(c => c.passed) ? 'verified' : 'review', checks,
       sourceUrl:data.sourceUrl, checkedAt:data.checkedAt, year:Number(row.YEAR),
+      noticeAttachments:localNoticeAttachments(row,{regionId:id,vehicleType:type,year}),
     };
   });
 }

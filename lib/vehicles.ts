@@ -4,6 +4,8 @@ import { regions } from './regions';
 import { getSubsidies } from './subsidies';
 import { BoundedCache } from './cache';
 import { readBoundedText } from './upstream';
+import { localBenefitInfo } from './local-benefit-source';
+import type { LocalBenefitInfo } from './benefit-types';
 import seoulPassenger from './data/vehicles-1100-passenger.json';
 import seoulCargo from './data/vehicles-1100-cargo.json';
 import suwonPassenger from './data/vehicles-4111-passenger.json';
@@ -20,6 +22,7 @@ export type VehiclesResponse = {
   applicationStatus:'open'|'closed'|'unknown'; statusReason:string|null; remaining:number|null;
   availability:{announced:number|null;received:number|null;selected:number|null;delivered:number|null;selectionRemaining:number|null;deliveryRemaining:number|null;checkedAt:string;checks:{id:string;label:string;passed:boolean}[]}|null;
   statusSourceStatus:'live'|'cached'|'unavailable'; statusCheckedAt:string|null;
+  localBenefits?:LocalBenefitInfo;
 };
 type VehicleBaseline={records:Pick<VehicleRecord,'id'|'national'|'local'|'total'>[]};
 type Entry={dataset:VehicleDataset;baseline?:VehicleBaseline};
@@ -88,6 +91,7 @@ async function load(id:string,type:VehicleType,year:number):Promise<VehiclesResp
   return {...prices,applicationStatus:local?.status??'unknown',statusReason:local?.statusReason??null,remaining:local?.available??null,
     availability:local?{announced:local.announced,received:local.received,selected:local.selected,delivered:local.delivered,selectionRemaining:local.available,deliveryRemaining:local.remaining,checkedAt:local.checkedAt,checks:local.checks}:null,
     statusSourceStatus:status.sourceStatus,statusCheckedAt:status.checkedAt,
+    localBenefits:localBenefitInfo(local,{regionId:id,vehicleType:type,year,sourceStatus:status.sourceStatus,checkedAt:status.checkedAt}),
   };
 }
 
