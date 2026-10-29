@@ -13,6 +13,9 @@ const bundle: BenefitBundle = {
     {id:'smallBusiness',label:'소상공인',kind:'percent',value:30,scope:'cargo-small-light-micro',requirement:'확인서',clause:'official'},
     {id:'delivery',label:'택배',kind:'percent',value:10,scope:'cargo-small-light-micro',requirement:'운송사업 증빙',clause:'official'},
     {id:'taxi',label:'택시',kind:'fixed',value:250,scope:'passenger-standard',requirement:'면허',clause:'official'},
+    {id:'lowIncomePassenger',label:'기초·차상위',kind:'percent',value:20,scope:'passenger-all',requirement:'차상위 이하 개인',clause:'official'},
+    {id:'lowIncomeCargo',label:'기초·차상위',kind:'percent',value:30,scope:'cargo-small-light-micro',requirement:'차상위 이하 개인',clause:'official'},
+    {id:'farmer',label:'농업인',kind:'percent',value:10,scope:'cargo-small-light-micro',requirement:'농업인 확인서',clause:'official'},
   ]},
   local:{regionId:'1100',vehicleType:'passenger',year:2026,checkedAt:new Date(now).toISOString(),sourceStatus:'live',sourceUrl:'https://ev.or.kr/',noticeText:'별도 지역지원 가능',notices:[],signals:[],monetaryVerification:'local-notice-required'},
 };
@@ -32,9 +35,22 @@ test('small-business and delivery use the same original cargo national base',()=
   const r=calc({smallBusiness:true,delivery:true},cargo);assert.equal(r.additional,400);assert.equal(r.total,1700);
 });
 test('transition never inflates another percentage and first-car is incompatible with it',()=>{
-  assert.equal(calc({smallBusiness:true},cargo,bundle,true).additional,300);
+  assert.equal(calc({farmer:true},cargo,bundle,true).additional,100);
   assert.equal(calc({children:2},passenger,bundle,true).total,880);
   const conflict=calc({youth:true},passenger,bundle,true);assert.equal(conflict.total,null);assert.equal(conflict.lines[0].state,'unverified');
+});
+test('cargo small-business with transition remains unresolved instead of assuming regional stacking',()=>{
+  const r=calc({smallBusiness:true,delivery:true},cargo,bundle,true);
+  assert.equal(r.total,null);assert.equal(r.pendingCount,1);assert.equal(r.knownTotal,1530);
+  assert.match(r.lines[0].detail,/중복 가능 여부/);
+});
+test('low-income and youth passenger percentages stack on the original base',()=>{
+  const r=calc({lowIncome:true,youth:true});assert.equal(r.additional,200);assert.equal(r.total,850);
+});
+test('cargo low-income and small-business are one award, with farmer and delivery independently added',()=>{
+  const r=calc({smallBusiness:true,lowIncome:true,farmer:true,delivery:true},cargo);
+  assert.equal(r.lines.length,3);assert.equal(r.additional,500);assert.equal(r.total,1800);
+  assert.match(r.lines[0].label,/소상공인/);assert.match(r.lines[0].detail,/한 번/);
 });
 test('flags from another vehicle type do not leak into the calculation',()=>{
   assert.equal(calc({smallBusiness:true,delivery:true}).additional,0);

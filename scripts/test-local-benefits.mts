@@ -93,6 +93,75 @@ test('free-text signals stay evidence even when historical, closed, conflicting 
   assert.ok(signals.every(signal=>!('amount' in signal) && !('eligible' in signal)));
 });
 
+test('restrictions and deductions outrank early generic priority and allocation mentions', () => {
+  const text = [
+    '우선지원 배정 물량: 소상공인, 택시, 다자녀, 청년',
+    '지방비 배정 대수는 별도 공고',
+    '소상공인 추가지원은 화물 전환지원금과 중복지원 불가',
+    '경유 화물차 미폐차 시 국비 50만원 및 대응 지방비 차감',
+    '택시 접수는 예산 소진 시 마감',
+  ].join('\n');
+  const signals=localBenefitSignals(text);
+  assert.equal(signals[0].kind,'restriction');
+  const deductionIndex=signals.findIndex(signal=>signal.kind==='deduction');
+  const closureIndex=signals.findIndex(signal=>signal.kind==='closure');
+  assert.ok(deductionIndex>0 && closureIndex>deductionIndex);
+  assert.ok(signals.some(signal=>signal.id==='smallBusiness' && signal.excerpt.includes('중복지원 불가')));
+  assert.ok(signals.filter(signal=>signal.kind==='general').every(signal=>signals.indexOf(signal)>closureIndex));
+});
+
+test('named local programs and monetary details are not masked by an earlier generic mention', () => {
+  const text = [
+    '지방비 보조금 조회 안내',
+    '청년은 우선지원 물량 별도 배정',
+    '부산청년 EV드림: 312대, 세부내역 참조',
+    '청년 생애최초 구매자는 국비의 20% 추가 지원',
+    '지역할인제: 해당없음',
+  ].join('\n');
+  const signals=localBenefitSignals(text);
+  assert.ok(signals.some(signal=>signal.kind==='program' && signal.excerpt.includes('EV드림')));
+  assert.ok(signals.some(signal=>signal.id==='youth' && signal.excerpt.includes('20%')));
+  assert.ok(signals.some(signal=>signal.kind==='closure' && signal.excerpt.includes('해당없음')));
+  assert.ok(signals.findIndex(signal=>signal.excerpt.includes('EV드림'))<signals.findIndex(signal=>signal.kind==='general') || !signals.some(signal=>signal.kind==='general'));
+});
+
+test('low-income and farmer subjects retain detailed restrictions and deductions before priority mentions', () => {
+  const text = [
+    '우선지원 물량 별도 배정: 기초생활수급자, 차상위 계층, 농업인',
+    '기초생활수급자·차상위와 소상공인 가산은 중복지원 불가',
+    '농업인은 경유차 미폐차 시 차감된 기본 국비를 기준으로 계산',
+    '농업경영체 등록 농업인은 기본 국비의 10% 추가 지원',
+  ].join('\n');
+  const signals=localBenefitSignals(text);
+  assert.equal(signals[0].kind,'restriction');
+  assert.ok(signals.some(signal=>signal.id==='lowIncomePassenger' && signal.kind==='restriction' && signal.excerpt.includes('중복지원 불가')));
+  assert.ok(signals.some(signal=>signal.id==='farmer' && signal.kind==='deduction' && signal.excerpt.includes('차감된')));
+  assert.ok(signals.some(signal=>signal.id==='farmer' && signal.kind==='benefit' && signal.excerpt.includes('10%')));
+  assert.ok(signals.every(signal=>!('amount' in signal) && !('eligible' in signal)));
+});
+
+test('historical or conditional closure snippets never authorize amounts or current availability', () => {
+  const record={...currentRecord(),notice:'과거 공고: 청년 EV드림 200만원 지원 종료\n택배 10% 추가 지원은 예산 소진 시 마감'};
+  const info=localBenefitInfo(record,context);
+  assert.equal(info.monetaryVerification,'local-notice-required');
+  assert.ok(info.signals.some(signal=>signal.kind==='closure' && signal.excerpt.includes('과거 공고')));
+  assert.ok(info.signals.some(signal=>signal.excerpt.includes('소진 시')));
+  assert.ok(info.signals.every(signal=>Object.keys(signal).every(key=>['id','label','excerpt','kind'].includes(key))));
+  assert.ok(!('amount' in info) && !('eligible' in info) && !('active' in info));
+});
+
+test('signal selection is deterministic, bounded, and does not present document requirements as a local program', () => {
+  const text = Array.from({length:150},(_,index)=>`청년 우선지원 ${index}대\n구비서류 제출 안내`).join('\n')
+    + '\n청년 EV드림 312대\n화물 소상공인 전환지원금 중복지원 불가';
+  const signals=localBenefitSignals(text);
+  assert.deepEqual(signals,localBenefitSignals(text));
+  assert.ok(signals.length<=10);
+  assert.ok(signals.every(signal=>signal.excerpt.length<=262));
+  assert.ok(!signals.some(signal=>signal.id==='local-program' && signal.excerpt.includes('구비서류')));
+  assert.ok(signals.some(signal=>signal.excerpt.includes('EV드림')));
+  assert.equal(signals[0].kind,'restriction');
+});
+
 test('notice attachment flags require the exact financial authority, type and year', () => {
   const row=fresh('passenger').rows.find(row=>row.LOCAL_CD==='1100')!;
   assert.ok(localNoticeAttachments(row,context).length>0);
