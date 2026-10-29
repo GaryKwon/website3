@@ -62,3 +62,42 @@
 .benefit-policy-verification p{font-size:12px;line-height:1.8;color:#536e85;margin:6px 0;overflow-wrap:anywhere}
 @media(max-width:760px){.additional-benefits{margin-top:25px;padding-top:23px}.benefit-option{gap:10px}.benefit-option-copy b{font-size:14px}.benefit-option-copy small,.benefit-child-requirement{font-size:12px}.benefit-value{font-size:12px}.local-benefit-review{padding:16px 15px}.local-benefit-heading{gap:7px}.benefit-breakdown>p{font-size:12px}}
 @media(max-width:440px){.benefit-option{grid-template-columns:21px minmax(0,1fr);gap:5px 10px}.benefit-check{grid-row:1/3;align-self:center}.benefit-option-copy{grid-column:2}.benefit-value{grid-column:2;text-align:left;margin-top:2px}.benefit-option-copy small{line-height:1.75}.benefit-line{gap:5px 10px}.benefit-line dt{font-size:13px}.benefit-line dd{font-size:13px}}
+
+/* Keep conditions and source coverage compact beside the amount. */
+.benefit-more-conditions{margin-top:13px;border:1px solid #ffffffb8;border-radius:13px;padding:0 13px;background:#ffffff24}
+.benefit-more-conditions>summary{cursor:pointer;font-size:13px;font-weight:650;color:#365a73;padding:14px 0;line-height:1.7}
+.benefit-more-conditions>summary>span{float:right;font-size:11px;font-weight:500;color:#647b8e;margin-left:10px}
+.benefit-more-conditions>summary:focus-visible{outline:2px solid #65849b;outline-offset:3px;border-radius:3px}
+.benefit-more-conditions .benefit-option:last-child{border-bottom:0}
+.benefit-review-programs{padding-bottom:15px}
+.benefit-review-programs>p{font-size:11px;font-weight:650;color:#81614b;margin:10px 0}
+.benefit-review-programs article{padding:13px 0;border-top:1px solid #ffffff9c}
+.benefit-review-programs article:last-child{padding-bottom:0}
+.benefit-review-programs article>div{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#365a73;font-size:13px}
+.benefit-review-programs article>div>b{font-weight:650}
+.benefit-review-programs article>div>span{font-weight:650;color:#647183}
+.benefit-review-programs article>p{font-size:12px;line-height:1.8;color:#536f85;margin:6px 0 0;overflow-wrap:anywhere}
+.benefit-review-programs article>small{display:block;font-size:11px;color:#81614b;margin-top:6px}
+.local-benefit-review>.benefit-quiet-note{margin-top:9px}
+.local-benefit-highlights{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.local-benefit-highlights>span{display:inline-block;border:1px solid #ffffffa6;border-radius:6px;background:#ffffff65;padding:4px 7px;font-size:11px;line-height:1.6;font-weight:600;color:#756451;overflow-wrap:anywhere}
+.benefit-notices>summary>span{font-size:11px;font-weight:500;margin-left:8px;color:#62778a}
+.benefit-notices>.local-benefit-details{gap:10px;margin-top:6px}
+.local-benefit-details>.benefit-quiet-note{font-size:11px;margin:6px 0}
+.local-benefit-signal{padding-top:8px}
+.local-benefit-signal p{padding-right:4px}
+.benefit-coverage{display:grid;gap:11px;margin-top:21px;padding:17px 0 0;border-top:1px solid #ffffffc2}
+.benefit-coverage>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 10px;align-items:baseline;min-width:0}
+.benefit-coverage span{font-size:12px;font-weight:600;color:#47677f}
+.benefit-coverage b{font-size:11px;font-weight:650;color:#477270;text-align:right}
+.benefit-coverage small{grid-column:1/-1;font-size:10px;color:#62778a;line-height:1.7;overflow-wrap:anywhere}
+.benefit-coverage .coverage-pending b{color:#81614b}
+.benefit-pending-total{display:grid;gap:6px;margin:-12px 0 23px;padding:12px 13px;border:1px solid #ffffffb3;border-radius:12px;background:#ffffff48}
+.benefit-pending-total p{font-size:13px;line-height:1.7;font-weight:650;color:#81614b;margin:0}
+.benefit-pending-total>span{font-size:12px;line-height:1.8;color:#536f85}
+.benefit-pending-total b{font-size:15px;color:#385e76;margin-left:6px;font-weight:650;font-variant-numeric:tabular-nums}
+.benefit-pending-total small{font-size:11px;line-height:1.7;color:#62778a}
+.mobile-total .mobile-pending{display:block;margin:4px 0 0;font-size:11px;line-height:1.5;color:#81614b}
+.amount-total>b{font-size:clamp(36px,4.5vw,63px);white-space:nowrap}
+@media(max-width:760px){.benefit-coverage small{font-size:11px}.benefit-review-programs article>div{gap:5px}.benefit-more-conditions{padding:0 12px}.amount-total>b{font-size:clamp(36px,10vw,63px)}.mobile-total>span{min-width:0}.mobile-total b{font-size:clamp(20px,5.8vw,27px);white-space:nowrap}}
+@media(max-width:360px){.benefit-pending-total b{display:block;margin-left:0}.mobile-total{gap:8px;padding:14px 15px}.mobile-total>span{font-size:11px}.mobile-total .mobile-pending{font-size:10px}}
