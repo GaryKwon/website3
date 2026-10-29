@@ -1,0 +1,2524 @@
+{
+  "regionId": "4111",
+  "year": 2026,
+  "checkedAt": "2026-10-29T02:09:28.535Z",
+  "sourceUrl": "https://ev.or.kr/nportal/buySupprt/initPsLocalCarPirceAction.do?year1=2026&local_cd1=4111",
+  "records": [
+    {
+      "id": "PV5_OPEN2",
+      "manufacturer": "기아",
+      "modelName": "PV5 오픈베드 롱레인지",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1150,
+      "local": 460,
+      "total": 1610,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(71.2kWh)",
+        "range": "(상온) 330km (저온) 295km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_OPEN1",
+      "manufacturer": "기아",
+      "modelName": "PV5 오픈베드 스탠다드",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1000,
+      "local": 400,
+      "total": 1400,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(51.5kWh)",
+        "range": "(상온) 250km (저온) 220km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_2",
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 롱레인지 3도어",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1150,
+      "local": 460,
+      "total": 1610,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(71.2kWh)",
+        "range": "(상온) 378km (저온) 316km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_1",
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 롱레인지 4도어",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1150,
+      "local": 460,
+      "total": 1610,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(71.2kWh)",
+        "range": "(상온) 378km (저온) 316km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_4",
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 스탠다드 3도어",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1000,
+      "local": 400,
+      "total": 1400,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(51.5kWh)",
+        "range": "(상온) 280km (저온) 231km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_3",
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 스탠다드 4도어",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1000,
+      "local": 400,
+      "total": 1400,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(51.5kWh)",
+        "range": "(상온) 271km (저온) 218km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_CMP_STD_3",
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 컴팩트 스탠다드 3도어",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1000,
+      "local": 400,
+      "total": 1400,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "."
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_CMP_STD_4",
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 컴팩트 스탠다드 4도어",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1000,
+      "local": 400,
+      "total": 1400,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "."
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "KBONGGO",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1000,
+      "local": 400,
+      "total": 1400,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 220km (저온) 172km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I5",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 내장탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "KBONGGO_1",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 냉동탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1172,
+      "local": 468,
+      "total": 1640,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGO_LOW1",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 로우 내장탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 185km (저온) 151km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGO_LOW2",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 로우 냉동탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1172,
+      "local": 468,
+      "total": 1640,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 185km (저온) 151km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I2",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 로우 양문형 미닫이탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I9",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 수동식 윙바디",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I4",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 수직형 파워게이트",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I1",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 양문형 미닫이탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I8",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 전동식 윙바디",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGGO_I3",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 턴인형 파워게이트",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 181km (저온) 152km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGO_HIGH1",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 하이 내장탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 822,
+      "local": 328,
+      "total": 1150,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 185km (저온) 151km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BONGO_HIGH2",
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 하이 냉동탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1172,
+      "local": 468,
+      "total": 1640,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 185km (저온) 151km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "POTRO_TS",
+      "manufacturer": "디피코",
+      "modelName": "포트로-탑S",
+      "vehicleType": "cargo",
+      "category": "화물(초소형)",
+      "categoryCode": "TRUCKSSML",
+      "national": 380,
+      "local": 152,
+      "total": 532,
+      "transitionNational": 0,
+      "transitionLocal": 0,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온폴리머(15.03kWh)",
+        "range": "(상온) 75.7km (저온) 73.5km",
+        "seats": "(경형-초소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "POTRO_PS",
+      "manufacturer": "디피코",
+      "modelName": "포트로-픽업S",
+      "vehicleType": "cargo",
+      "category": "화물(초소형)",
+      "categoryCode": "TRUCKSSML",
+      "national": 380,
+      "local": 152,
+      "total": 532,
+      "transitionNational": 0,
+      "transitionLocal": 0,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온폴리머(15.03kWh)",
+        "range": "(상온) 75.7km (저온) 73.5km",
+        "seats": "(경형-초소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "OTEAK_ST1_1",
+      "manufacturer": "오텍",
+      "modelName": "오텍ST1 초경량 냉동탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1450,
+      "local": 580,
+      "total": 2030,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온((76.1kWh)",
+        "range": "(상온) 292km (저온) 220km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV_TOP_ICE_6",
+      "manufacturer": "일진정공",
+      "modelName": "일진무시동전기 냉동탑차(봉고)",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1186,
+      "local": 474,
+      "total": 1660,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV_TOP_ICE_4",
+      "manufacturer": "일진정공",
+      "modelName": "일진무시동전기냉동탑차(ST1)",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1450,
+      "local": 580,
+      "total": 2030,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV_TOP_ICE_3",
+      "manufacturer": "일진정공",
+      "modelName": "일진무시동전기냉동탑차(포터)",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1154,
+      "local": 461,
+      "total": 1615,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV_TOP_ICE_5",
+      "manufacturer": "일진정공",
+      "modelName": "일진무시동전기탑차(ST1)",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1100,
+      "local": 440,
+      "total": 1540,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MUSSO_2WD",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "MUSSO EV 2WD 17인치",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 639,
+      "local": 255,
+      "total": 894,
+      "transitionNational": 75,
+      "transitionLocal": 23,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.7kWh)",
+        "range": "(상온) 401km (저온) 357km",
+        "seats": "(소형) 5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MUSSO_AWD",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "MUSSO EV AWD 17인치",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 618,
+      "local": 247,
+      "total": 865,
+      "transitionNational": 73,
+      "transitionLocal": 22,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.7kWh)",
+        "range": "(상온) 342km (저온) 297km",
+        "seats": "(소형) 5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRES_EVX_VAN1",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX VAN 18인치",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 314,
+      "local": 125,
+      "total": 439,
+      "transitionNational": 63,
+      "transitionLocal": 19,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRES_EVX_VAN",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX VAN 20인치",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 312,
+      "local": 124,
+      "total": 436,
+      "transitionNational": 62,
+      "transitionLocal": 19,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRES_VAN_18",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 밴 18인치",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 348,
+      "local": 139,
+      "total": 487,
+      "transitionNational": 70,
+      "transitionLocal": 21,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.7kWh)",
+        "range": "(상온) 430km (저온) 354km",
+        "seats": "(소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORES_EVX_VAN_18",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 밴 18인치(2026)",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 355,
+      "local": 142,
+      "total": 497,
+      "transitionNational": 71,
+      "transitionLocal": 21,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.66kWh)",
+        "range": "(상온) 431km (저온) 406km",
+        "seats": "2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRES_VAN_20",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 밴 20인치",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 344,
+      "local": 137,
+      "total": 481,
+      "transitionNational": 69,
+      "transitionLocal": 21,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.7kWh)",
+        "range": "(상온) 421km (저온) 355km",
+        "seats": "(소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "GISSEN",
+      "manufacturer": "타타대우모빌리티",
+      "modelName": "기쎈",
+      "vehicleType": "cargo",
+      "category": "화물(중형)",
+      "categoryCode": "TRUCKMID",
+      "national": 1920,
+      "local": 768,
+      "total": 2688,
+      "transitionNational": 0,
+      "transitionLocal": 0,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(150kWh)",
+        "range": "(상온) 298km",
+        "seats": "(중형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "1TON_ST1",
+      "manufacturer": "한국쓰리축",
+      "modelName": "한국쓰리축1톤ST1트럭",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1200,
+      "local": 480,
+      "total": 1680,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(76.2kWh)",
+        "range": "(상온) 328km (저온) 214km",
+        "seats": "(소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "1TON_LONGBODY",
+      "manufacturer": "한국쓰리축",
+      "modelName": "한국쓰리축1톤롱바디EV트럭(봉고)",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 816,
+      "local": 326,
+      "total": 1142,
+      "transitionNational": 96,
+      "transitionLocal": 29,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ST1_1",
+      "manufacturer": "현대자동차",
+      "modelName": "ST1 기본형 카고",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1200,
+      "local": 480,
+      "total": 1680,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(75.8kWh)",
+        "range": "(상온) 317km (저온) 214km",
+        "seats": "(소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ST1_3",
+      "manufacturer": "현대자동차",
+      "modelName": "ST1 기본형 카고냉동",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1450,
+      "local": 580,
+      "total": 2030,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(75.8kWh)",
+        "range": "(상온) 298km (저온) 214km",
+        "seats": "(소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ST1_2",
+      "manufacturer": "현대자동차",
+      "modelName": "ST1 기본형 하이탑",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1100,
+      "local": 440,
+      "total": 1540,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(75.8kWh)",
+        "range": "(상온) 289km (저온) 216km",
+        "seats": "(소형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "STARC_PE_EV_3",
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 카고 일렉트릭 3인승",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1200,
+      "local": 480,
+      "total": 1680,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "NCM(84kWh)",
+        "range": "(상온) 395km (저온) 294km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "STARC_PE_EV_5",
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 카고 일렉트릭 5인승",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 1200,
+      "local": 480,
+      "total": 1680,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)395km (저온)294km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "POT_ELEC",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 968,
+      "local": 387,
+      "total": 1355,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 220km (저온) 190km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PORTER_I2",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 내장탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 780,
+      "local": 312,
+      "total": 1092,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 179km (저온) 150km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "POT_ELEC_3",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 수동식 윙바디",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 780,
+      "local": 312,
+      "total": 1092,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 175km (저온) 141km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PORTER_I5",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 저상내장탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 780,
+      "local": 312,
+      "total": 1092,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 179km (저온) 150km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "POT_ELEC_2",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 전동식 윙바디",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 780,
+      "local": 312,
+      "total": 1092,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 175km (저온) 141km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PORTER_I4",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 하이내장탑차",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 780,
+      "local": 312,
+      "total": 1092,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.86kWh)",
+        "range": "(상온) 179km (저온) 150km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "POT_ELEC_1",
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ일렉트릭파워게이트",
+      "vehicleType": "cargo",
+      "category": "화물(소형)",
+      "categoryCode": "TRUCKSML",
+      "national": 780,
+      "local": 312,
+      "total": 1092,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(60.4kWh)",
+        "range": "(상온) 175km (저온) 141km",
+        "seats": "(소형) 3인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "fingerprint": "3a226687c7b7cbb2dadad46e5881a9e7fefbc1220231d83d69a07adbc8c73c29"
+}

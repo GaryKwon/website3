@@ -1,0 +1,6748 @@
+{
+  "regionId": "5000",
+  "year": 2026,
+  "checkedAt": "2026-10-29T02:10:13.746Z",
+  "sourceUrl": "https://ev.or.kr/nportal/buySupprt/initPsLocalCarPirceAction.do?year1=2026&local_cd1=5000",
+  "records": [
+    {
+      "id": "ACE_E",
+      "manufacturer": "BMW",
+      "modelName": "MINI Aceman E",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 400,
+      "local": 276,
+      "total": 676,
+      "transitionNational": 80,
+      "transitionLocal": 24,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(54.2kWh)",
+        "range": "(상온)322km (저온)243km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ACEMAN_SE",
+      "manufacturer": "BMW",
+      "modelName": "MINI Aceman SE",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 400,
+      "local": 276,
+      "total": 676,
+      "transitionNational": 80,
+      "transitionLocal": 24,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(54.2kWh)",
+        "range": "(상온) 322km (저온) 243km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MN_COOPER_SE",
+      "manufacturer": "BMW",
+      "modelName": "MINI Cooper SE",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 396,
+      "local": 273,
+      "total": 669,
+      "transitionNational": 79,
+      "transitionLocal": 24,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(54.2kWh)",
+        "range": "(상온)320km (저온)241km",
+        "seats": "4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "COUNTRYMAN_E",
+      "manufacturer": "BMW",
+      "modelName": "MINI Countryman E",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 217,
+      "local": 149,
+      "total": 366,
+      "transitionNational": 43,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 367km (저온) 286km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "id": "COUNTRYMAN_SE",
+      "manufacturer": "BMW",
+      "modelName": "MINI Countryman SE ALL4",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 203,
+      "local": 140,
+      "total": 343,
+      "transitionNational": 41,
+      "transitionLocal": 12,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 344km (저온) 268km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "id": "JCW_ACE_E",
+      "manufacturer": "BMW",
+      "modelName": "MINI JCW Aceman E",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 197,
+      "local": 135,
+      "total": 332,
+      "transitionNational": 39,
+      "transitionLocal": 12,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(54.2kWh)",
+        "range": "(상온)315km (저온)249km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "JCW_E",
+      "manufacturer": "BMW",
+      "modelName": "MINI JCW E",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 191,
+      "local": 131,
+      "total": 322,
+      "transitionNational": 38,
+      "transitionLocal": 11,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(54.2kWh)",
+        "range": "(상온)303km (저온)243km",
+        "seats": "4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "NEW_MINI_CTRM_E",
+      "manufacturer": "BMW",
+      "modelName": "New MINI Countryman E",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 238,
+      "local": 164,
+      "total": 402,
+      "transitionNational": 48,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 399km (저온) 317km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "NEW_MINI_CTRM_SE_A4",
+      "manufacturer": "BMW",
+      "modelName": "New MINI Countryman SE ALL4",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 225,
+      "local": 155,
+      "total": 380,
+      "transitionNational": 45,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 375km (저온) 303km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "id": "I4_M60_LCI_71HD",
+      "manufacturer": "BMW",
+      "modelName": "i4 M60 LCI (71HD)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 233,
+      "local": 160,
+      "total": 393,
+      "transitionNational": 47,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.9kWh)",
+        "range": "(상온) 415km (저온) 315km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "I4_EDRIVE_40_1",
+      "manufacturer": "BMW",
+      "modelName": "i4 eDrive 40 LCI(21HD)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 244,
+      "local": 168,
+      "total": 412,
+      "transitionNational": 49,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.9kWh)",
+        "range": "(상온) 439km (저온) 331km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "I4_EDRIVE_40_2",
+      "manufacturer": "BMW",
+      "modelName": "i4 eDrive 40 LCI(61HD)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 256,
+      "local": 176,
+      "total": 432,
+      "transitionNational": 51,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.9kWh)",
+        "range": "(상온) 464km (저온) 337km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "I5_EDRIVE_40",
+      "manufacturer": "BMW",
+      "modelName": "i5 eDrive 40",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 262,
+      "local": 180,
+      "total": 442,
+      "transitionNational": 52,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.9kWh)",
+        "range": "(상온) 497km (저온) 356km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX1_EDRIVE_20",
+      "manufacturer": "BMW",
+      "modelName": "iX1 eDrive20",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 212,
+      "local": 146,
+      "total": 358,
+      "transitionNational": 42,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 354km (저온) 288km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX1_EDRIVE20_11HM",
+      "manufacturer": "BMW",
+      "modelName": "iX1 eDrive20(11HM)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 235,
+      "local": 162,
+      "total": 397,
+      "transitionNational": 47,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 392km (저온) 328km",
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX1_XDRIVE30",
+      "manufacturer": "BMW",
+      "modelName": "iX1 xDrive30",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 192,
+      "local": 132,
+      "total": 324,
+      "transitionNational": 38,
+      "transitionLocal": 11,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 313km (저온) 268km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX2_EDRIVE20",
+      "manufacturer": "BMW",
+      "modelName": "iX2 eDrive20",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 214,
+      "local": 147,
+      "total": 361,
+      "transitionNational": 43,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 358km (저온) 275km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX2_EDRIVE20_71GN",
+      "manufacturer": "BMW",
+      "modelName": "iX2 eDrive20(71GN)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 239,
+      "local": 164,
+      "total": 403,
+      "transitionNational": 48,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66.4kWh)",
+        "range": "(상온) 397km (저온) 328km",
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX3_50_XDRIVE",
+      "manufacturer": "BMW",
+      "modelName": "iX3 50 xDrive",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 285,
+      "local": 196,
+      "total": 481,
+      "transitionNational": 57,
+      "transitionLocal": 17,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(113.4kWh)",
+        "range": "(상온) 615km (저온) 568km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IX3_50_XDRIVE_SE",
+      "manufacturer": "BMW",
+      "modelName": "iX3 50 xDrive SE",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 285,
+      "local": 196,
+      "total": 481,
+      "transitionNational": 57,
+      "transitionLocal": 17,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV3_GT",
+      "manufacturer": "기아",
+      "modelName": "EV3 GT",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 248,
+      "local": 171,
+      "total": 419,
+      "transitionNational": 50,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 414km (저온) 354km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV3_2WD_L17",
+      "manufacturer": "기아",
+      "modelName": "EV3 롱레인지 2WD 17인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 555,
+      "local": 382,
+      "total": 937,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.3kWh)",
+        "range": "(상온) 510km (저온) 401km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV3_2WD_L19",
+      "manufacturer": "기아",
+      "modelName": "EV3 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 555,
+      "local": 382,
+      "total": 937,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.3kWh)",
+        "range": "(상온) 485km (저온) 382km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV3_4WD_L19",
+      "manufacturer": "기아",
+      "modelName": "EV3 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 539,
+      "local": 371,
+      "total": 910,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 457km (저온) 372km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV3_2WD_S",
+      "manufacturer": "기아",
+      "modelName": "EV3 스탠다드 2WD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 469,
+      "local": 323,
+      "total": 792,
+      "transitionNational": 94,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.3kWh)",
+        "range": "(상온) 347km (저온) 292km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV4_GT",
+      "manufacturer": "기아",
+      "modelName": "EV4 GT",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 255,
+      "local": 175,
+      "total": 430,
+      "transitionNational": 51,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 431km (저온) 349km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV42WDL17",
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 2WD 17인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 555,
+      "local": 382,
+      "total": 937,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 549km (저온) 440km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV42WDL19",
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 555,
+      "local": 382,
+      "total": 937,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 514km (저온) 410km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV44WDL19",
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 554,
+      "local": 382,
+      "total": 936,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 484km (저온) 376km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV4_2WD_L19",
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 GTL 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 555,
+      "local": 382,
+      "total": 937,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 509km (저온) 421km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV42WDS17",
+      "manufacturer": "기아",
+      "modelName": "EV4 스탠다드 2WD 17인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 512,
+      "local": 353,
+      "total": 865,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.3kWh)",
+        "range": "(상온) 391km (저온) 305km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV42WDS19",
+      "manufacturer": "기아",
+      "modelName": "EV4 스탠다드 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 481,
+      "local": 331,
+      "total": 812,
+      "transitionNational": 96,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(58.3kWh)",
+        "range": "(상온) 362km (저온) 291km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV5_GT",
+      "manufacturer": "기아",
+      "modelName": "EV5 GT",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 232,
+      "local": 160,
+      "total": 392,
+      "transitionNational": 46,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 378km (저온) 308km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV5_1",
+      "manufacturer": "기아",
+      "modelName": "EV5 롱레인지 2WD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 552,
+      "local": 380,
+      "total": 932,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 460km (저온) 374km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV5_2",
+      "manufacturer": "기아",
+      "modelName": "EV5 롱레인지 4WD 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 499,
+      "local": 344,
+      "total": 843,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 420km (저온) 330km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV5_3",
+      "manufacturer": "기아",
+      "modelName": "EV5 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 493,
+      "local": 340,
+      "total": 833,
+      "transitionNational": 99,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.4kWh)",
+        "range": "(상온) 406km (저온) 320km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV5_STD_2WD_18",
+      "manufacturer": "기아",
+      "modelName": "EV5 스탠다드 2WD 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 456,
+      "local": 314,
+      "total": 770,
+      "transitionNational": 91,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV5_STD_2WD_19",
+      "manufacturer": "기아",
+      "modelName": "EV5 스탠다드 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 453,
+      "local": 312,
+      "total": 765,
+      "transitionNational": 91,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_GT",
+      "manufacturer": "기아",
+      "modelName": "EV9 GT",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 245,
+      "local": 169,
+      "total": 414,
+      "transitionNational": 49,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(99.8kWh)",
+        "range": "(상온) 421km (저온) 359km",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_2WD_19",
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 270,
+      "local": 186,
+      "total": 456,
+      "transitionNational": 54,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(99.8kWh)",
+        "range": "(상온) 508km (저온) 368km",
+        "seats": "6, 7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_2WD_20",
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 2WD 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 268,
+      "local": 184,
+      "total": 452,
+      "transitionNational": 54,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(99.8kWh)",
+        "range": "(상온) 490km (저온) 370km",
+        "seats": "6, 7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_4WD_19",
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 254,
+      "local": 175,
+      "total": 429,
+      "transitionNational": 51,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(99.8kWh)",
+        "range": "(상온) 453km (저온) 337km",
+        "seats": "6, 7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_4WD_21",
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 4WD 21인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 260,
+      "local": 179,
+      "total": 439,
+      "transitionNational": 52,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(99.8kWh)",
+        "range": "(상온) 461km (저온) 352km",
+        "seats": "6, 7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_GTL_4WD_21",
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 GTL 4WD 21인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 252,
+      "local": 173,
+      "total": 425,
+      "transitionNational": 50,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(99.8kWh)",
+        "range": "(상온) 452km (저온) 321km",
+        "seats": "6, 7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV9_S",
+      "manufacturer": "기아",
+      "modelName": "EV9 스탠다드",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 237,
+      "local": 163,
+      "total": 400,
+      "transitionNational": 47,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(76.2kWh)",
+        "range": "(상온) 385km (저온) 307km",
+        "seats": "6, 7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_PSG_5_TAXI_LR",
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 5인승 (1-2-2 택시) 롱레인지",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 458,
+      "local": 316,
+      "total": 774,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5",
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 5인승 롱레인지",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 458,
+      "local": 316,
+      "total": 774,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(71.2kWh)",
+        "range": "(상온) 363km (저온) 296km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_PSG_5_LR",
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 5인승(1-2-2) 롱레인지",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 458,
+      "local": 316,
+      "total": 774,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_PSG_7_LR",
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 7인승(2-2-3) 롱레인지",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 455,
+      "local": 313,
+      "total": 768,
+      "transitionNational": 91,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "7인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_PRM_LR",
+      "manufacturer": "기아",
+      "modelName": "PV5 프라임 롱레인지",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 439,
+      "local": 302,
+      "total": 741,
+      "transitionNational": 88,
+      "transitionLocal": 26,
+      "discontinued": false,
+      "specs": {
+        "battery": ",",
+        "range": ",",
+        "seats": "."
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_WAV_2",
+      "manufacturer": "기아",
+      "modelName": "Pv5 WAV(비용 미지원)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 648,
+      "local": 447,
+      "total": 1095,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PV5_WAV1",
+      "manufacturer": "기아",
+      "modelName": "Pv5 WAV(비용 지원)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 448,
+      "local": 309,
+      "total": 757,
+      "transitionNational": 90,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ALLNEW_NIRO",
+      "manufacturer": "기아",
+      "modelName": "The all-new Kia Niro EV",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 489,
+      "local": 337,
+      "total": 826,
+      "transitionNational": 98,
+      "transitionLocal": 29,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV6_2WD_L19",
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 570,
+      "local": 393,
+      "total": 963,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온) 505km (저온) 391km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV6_2WD_L20",
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 2WD 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 559,
+      "local": 385,
+      "total": 944,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온) 462km (저온) 370km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV6_4WD_L19",
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 561,
+      "local": 387,
+      "total": 948,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온) 461km (저온) 380km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EV6_4WD_L20",
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 4WD 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 532,
+      "local": 367,
+      "total": 899,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온) 437km (저온) 353km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW_EV6",
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 스탠다드",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 501,
+      "local": 345,
+      "total": 846,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(63.1kWh)",
+        "range": "(상온) 389km (저온) 304km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "RAY_1_V",
+      "manufacturer": "기아",
+      "modelName": "레이 EV 2WD 14인치 1인승 밴",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 457,
+      "local": 344,
+      "total": 801,
+      "transitionNational": 91,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(35.2kWh)",
+        "range": "(상온) 211km (저온) 176km",
+        "seats": "(경형) 1인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "RAY_2_V",
+      "manufacturer": "기아",
+      "modelName": "레이 EV 2WD 14인치 2인승 밴",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 457,
+      "local": 344,
+      "total": 801,
+      "transitionNational": 91,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(35.2kWh)",
+        "range": "(상온) 211km (저온) 176km",
+        "seats": "(경형) 2인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "RAY_4_R",
+      "manufacturer": "기아",
+      "modelName": "레이 EV 2WD 14인치 4인승 승용",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 457,
+      "local": 344,
+      "total": 801,
+      "transitionNational": 91,
+      "transitionLocal": 27,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(35.2kWh)",
+        "range": "(상온) 211km (저온) 176km",
+        "seats": "(경형) 4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EQA_250_2",
+      "manufacturer": "메르세데스벤츠코리아",
+      "modelName": "EQA 250(Facelift)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 190,
+      "local": 131,
+      "total": 321,
+      "transitionNational": 38,
+      "transitionLocal": 11,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(68.6kWh)",
+        "range": "(상온) 367km (저온) 298km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EQB_300_1",
+      "manufacturer": "메르세데스벤츠코리아",
+      "modelName": "EQB 300 4MATIC(Facelift)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 154,
+      "local": 106,
+      "total": 260,
+      "transitionNational": 31,
+      "transitionLocal": 9,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(68.6kWh)",
+        "range": "(상온) 302km (저온) 225km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EQB_300_1F",
+      "manufacturer": "메르세데스벤츠코리아",
+      "modelName": "EQB 300 4MATIC(Facelift)(CY25/2)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 162,
+      "local": 111,
+      "total": 273,
+      "transitionNational": 32,
+      "transitionLocal": 10,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ES90_TM",
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "ES90 Twin Motor",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 174,
+      "local": 120,
+      "total": 294,
+      "transitionNational": 35,
+      "transitionLocal": 11,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EX30_SM_ER",
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "볼보 EX30 Single Motor ER",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 247,
+      "local": 170,
+      "total": 417,
+      "transitionNational": 49,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66kWh)",
+        "range": "(상온) 351km (저온) 302km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "EX30CC_TM_PF",
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "볼보 EX30CC Twin Motor Perf",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 222,
+      "local": 153,
+      "total": 375,
+      "transitionNational": 44,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(66kWh)",
+        "range": "(상온) 338km (저온) 280km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ATTO3",
+      "manufacturer": "비와이디코리아",
+      "modelName": "BYD ATTO 3",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 126,
+      "local": 86,
+      "total": 212,
+      "transitionNational": 25,
+      "transitionLocal": 8,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BYD_DOLPHIN",
+      "manufacturer": "비와이디코리아",
+      "modelName": "BYD DOLPHIN",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 109,
+      "local": 75,
+      "total": 184,
+      "transitionNational": 22,
+      "transitionLocal": 7,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BYD_DOLPHIN_ACTIVE",
+      "manufacturer": "비와이디코리아",
+      "modelName": "BYD DOLPHIN Active",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 132,
+      "local": 91,
+      "total": 223,
+      "transitionNational": 26,
+      "transitionLocal": 8,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BYD_SEAL",
+      "manufacturer": "비와이디코리아",
+      "modelName": "BYD SEAL",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 169,
+      "local": 116,
+      "total": 285,
+      "transitionNational": 34,
+      "transitionLocal": 10,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BYD_SEAL_DYNAMIC_AWD",
+      "manufacturer": "비와이디코리아",
+      "modelName": "BYD SEAL Dynamic AWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 151,
+      "local": 104,
+      "total": 255,
+      "transitionNational": 30,
+      "transitionLocal": 9,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "BYD_SEALION_7",
+      "manufacturer": "비와이디코리아",
+      "modelName": "BYD SEALION 7",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 152,
+      "local": 104,
+      "total": 256,
+      "transitionNational": 30,
+      "transitionLocal": 9,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRESEVX18",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 354,
+      "local": 244,
+      "total": 598,
+      "transitionNational": 71,
+      "transitionLocal": 21,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.7kWh)",
+        "range": "(상온) 452km (저온) 341km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORES_EVX_18_2026",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 18인치(2026)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 361,
+      "local": 249,
+      "total": 610,
+      "transitionNational": 72,
+      "transitionLocal": 22,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.66kWh)",
+        "range": "(상온)448km (저온) 407km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRESEVX20",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 344,
+      "local": 237,
+      "total": 581,
+      "transitionNational": 69,
+      "transitionLocal": 21,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.7kWh)",
+        "range": "(상온) 436km (저온) 310km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORES_EVX_20_2026",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 20인치(2026)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 354,
+      "local": 244,
+      "total": 598,
+      "transitionNational": 71,
+      "transitionLocal": 21,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(80.66kWh)",
+        "range": "(상온)433km (저온) 399km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRES_EV-X",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 2WD 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 327,
+      "local": 225,
+      "total": 552,
+      "transitionNational": 65,
+      "transitionLocal": 20,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "TORRES_EV-X_20",
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 2WD 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 312,
+      "local": 215,
+      "total": 527,
+      "transitionNational": 62,
+      "transitionLocal": 19,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL3PERF_H",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 Performance",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 200,
+      "local": 138,
+      "total": 338,
+      "transitionNational": 40,
+      "transitionLocal": 12,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(81.65kWh)",
+        "range": "(상온) 430km (저온) 358km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL_3_PRE_1",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 Premium Long Range RWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 420,
+      "local": 289,
+      "total": 709,
+      "transitionNational": 84,
+      "transitionLocal": 25,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84.7kWh)",
+        "range": "(상온) 551km (저온) 419km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "id": "MODEL_3_PRE_1_202607",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 Premium Long Range RWD(5999만원)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 210,
+      "local": 144,
+      "total": 354,
+      "transitionNational": 42,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL_3_STANDARD_RWD",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 RWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 168,
+      "local": 115,
+      "total": 283,
+      "transitionNational": 34,
+      "transitionLocal": 10,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(62.1kWh)",
+        "range": "(상온) 399km (저온) 309km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL3_RWD_2027",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 RWD (2027)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 217,
+      "local": 149,
+      "total": 366,
+      "transitionNational": 43,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL3RWD",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 RWD(2025)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 168,
+      "local": 115,
+      "total": 283,
+      "transitionNational": 34,
+      "transitionLocal": 10,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODELYL",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y L AWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 215,
+      "local": 148,
+      "total": 363,
+      "transitionNational": 43,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(88.2kWh)",
+        "range": "(상온) 553km (저온) 454km",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODELY_LLANGE",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y Long Range(2025)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 210,
+      "local": 144,
+      "total": 354,
+      "transitionNational": 42,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온 (84.7kWh)",
+        "range": "(상온) 523km (저온) 396km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL_Y_PRE_1",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y Premium Long Range",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 210,
+      "local": 144,
+      "total": 354,
+      "transitionNational": 42,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84.7kWh)",
+        "range": "(상온) 523km (저온) 396km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODEL_Y_PREMIUM_RWD",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y Premium RWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 170,
+      "local": 117,
+      "total": 287,
+      "transitionNational": 34,
+      "transitionLocal": 10,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(62.1kWh)",
+        "range": "(상온) 400km (저온) 302km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODELYRWD",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y RWD(2025)",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 170,
+      "local": 117,
+      "total": 287,
+      "transitionNational": 34,
+      "transitionLocal": 10,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬인산철(62.1kWh)",
+        "range": "(상온) 400km (저온) 302km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "MODELY_PL_AWD",
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y premium L AWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 215,
+      "local": 148,
+      "total": 363,
+      "transitionNational": 43,
+      "transitionLocal": 13,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ID.4_PRO",
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "ID.4 Pro",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 432,
+      "local": 298,
+      "total": 730,
+      "transitionNational": 86,
+      "transitionLocal": 26,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(82.8kWh)",
+        "range": "(상온) 424km (저온) 296km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "Q4_45_E-TRON",
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "Q4 45 e-tron",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 206,
+      "local": 142,
+      "total": 348,
+      "transitionNational": 41,
+      "transitionLocal": 12,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(82.8kWh)",
+        "range": "(상온) 406km (저온) 285km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "Q4_SPORT_45",
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "Q4 Sportback 45 e-tron",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 206,
+      "local": 142,
+      "total": 348,
+      "transitionNational": 41,
+      "transitionLocal": 12,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(82.8kWh)",
+        "range": "(상온) 406km (저온) 285km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "Q6_E-TRON_PER",
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "Q6 e-tron performance",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 220,
+      "local": 151,
+      "total": 371,
+      "transitionNational": 44,
+      "transitionLocal": 13,
+      "discontinued": true,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ID5_PRO",
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "iD.5 Pro",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 473,
+      "local": 326,
+      "total": 799,
+      "transitionNational": 95,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온 (82.8kWh)",
+        "range": "(상온) 451km (저온) 341km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PLST3_RM",
+      "manufacturer": "폴스타오토모티브코리아",
+      "modelName": "Polestar 3 Rear Motor",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 162,
+      "local": 111,
+      "total": 273,
+      "transitionNational": 32,
+      "transitionLocal": 10,
+      "discontinued": false,
+      "specs": {
+        "battery": ".",
+        "range": ".",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PLST4_C_DM",
+      "manufacturer": "폴스타오토모티브코리아",
+      "modelName": "Polestar 4 Coupe Dual Motor",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 168,
+      "local": 115,
+      "total": 283,
+      "transitionNational": 34,
+      "transitionLocal": 10,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "PLST4_C_RM",
+      "manufacturer": "폴스타오토모티브코리아",
+      "modelName": "Polestar 4 Coupe Rear Motor",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 181,
+      "local": 124,
+      "total": 305,
+      "transitionNational": 36,
+      "transitionLocal": 11,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "ELECTRIFIED_G80",
+      "manufacturer": "현대자동차",
+      "modelName": "ELECTRIFIED G80",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 270,
+      "local": 186,
+      "total": 456,
+      "transitionNational": 54,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(94.6kWh)",
+        "range": "(상온)489km (저온) 380km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "GV70_1",
+      "manufacturer": "현대자동차",
+      "modelName": "ELECTRIFIED GV70 AWD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 261,
+      "local": 180,
+      "total": 441,
+      "transitionNational": 52,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84.1kWh)",
+        "range": "(상온)405km (저온) 322km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "GV70_2",
+      "manufacturer": "현대자동차",
+      "modelName": "ELECTRIFIED GV70 AWD 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 245,
+      "local": 169,
+      "total": 414,
+      "transitionNational": 49,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84.1kWh)",
+        "range": "(상온)405km (저온) 322km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "GV60_2WD_19",
+      "manufacturer": "현대자동차",
+      "modelName": "GV60 스탠다드 2WD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 285,
+      "local": 196,
+      "total": 481,
+      "transitionNational": 57,
+      "transitionLocal": 17,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(77.4kWh)",
+        "range": "(상온) 470km (저온) 416km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "GV60_4WD_19",
+      "manufacturer": "현대자동차",
+      "modelName": "GV60 스탠다드 AWD 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 272,
+      "local": 187,
+      "total": 459,
+      "transitionNational": 54,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(77.4kWh)",
+        "range": "(상온) 403km (저온) 378km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "GV60_4WD_20",
+      "manufacturer": "현대자동차",
+      "modelName": "GV60 스탠다드 AWD 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 261,
+      "local": 180,
+      "total": 441,
+      "transitionNational": 52,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(77.4kWh)",
+        "range": "(상온) 386km (저온) 358km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_19_2",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 564,
+      "local": 389,
+      "total": 953,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온)462km (저온) 369km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_19_3",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 19인치 빌트인 캠 미적용",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 567,
+      "local": 391,
+      "total": 958,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온)462km (저온) 369km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_20_1",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 559,
+      "local": 385,
+      "total": 944,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온)462km (저온) 369km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_20_2",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 541,
+      "local": 373,
+      "total": 914,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온)448km (저온) 354km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_19_1",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 스탠다드 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 483,
+      "local": 333,
+      "total": 816,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(63.1kWh)",
+        "range": "(상온)368km (저온) 297km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_19_4",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 AWD 롱레인지 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 558,
+      "local": 385,
+      "total": 943,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)468km (저온) 379km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_20_3",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 AWD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 532,
+      "local": 367,
+      "total": 899,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온)434km (저온) 368km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW5_20_4",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 AWD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 510,
+      "local": 351,
+      "total": 861,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(83.6kWh)",
+        "range": "(상온)411km (저온) 343km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_18_2",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 롱레인지 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 570,
+      "local": 393,
+      "total": 963,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)475km (저온) 432km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_20_1",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 570,
+      "local": 393,
+      "total": 963,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)475km (저온) 432km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_20_2",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 570,
+      "local": 393,
+      "total": 963,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)475km (저온) 432km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_18_1",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 스탠다드 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 560,
+      "local": 386,
+      "total": 946,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(63kWh)",
+        "range": "(상온)422km (저온) 387km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_18_3",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 AWD 롱레인지 18인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 570,
+      "local": 393,
+      "total": 963,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)431km (저온) 382km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_20_3",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 AWD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 553,
+      "local": 381,
+      "total": 934,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)431km (저온) 382km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "THENEW6_20_4",
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 AWD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 537,
+      "local": 370,
+      "total": 907,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온)431km (저온) 382km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "STARR_PE_EV_7",
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 라운지 일렉트릭 7인승",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 229,
+      "local": 158,
+      "total": 387,
+      "transitionNational": 46,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": null,
+        "range": null,
+        "seats": null
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "STARL_PE_EV_6",
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 리무진 일렉트릭 6인승",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 229,
+      "local": 158,
+      "total": 387,
+      "transitionNational": 46,
+      "transitionLocal": 14,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(84kWh)",
+        "range": "(상온) 370km (저온)290km",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IONIQ6N",
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉6 N",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 250,
+      "local": 172,
+      "total": 422,
+      "transitionNational": 50,
+      "transitionLocal": 15,
+      "discontinued": false,
+      "specs": {
+        "battery": "84 kWh",
+        "range": "(상온) 401km (저온) 351km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IONIQ9_STD_AWD",
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉9 성능형 AWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 272,
+      "local": 187,
+      "total": 459,
+      "transitionNational": 54,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(110.3kWh)",
+        "range": "(상온)503km (저온) 420km",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IONIQ9_ACT_2WD",
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉9 항속형 2WD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 274,
+      "local": 189,
+      "total": 463,
+      "transitionNational": 55,
+      "transitionLocal": 17,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(110.3kWh)",
+        "range": "(상온)503km (저온) 420km",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "IONIQ9_ACT_AWD",
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉9 항속형 AWD",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 271,
+      "local": 186,
+      "total": 457,
+      "transitionNational": 54,
+      "transitionLocal": 16,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(110.3kWh)",
+        "range": "(상온)503km (저온) 403km",
+        "seats": "6인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "CASPER_S15",
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 기본형 15인치",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 490,
+      "local": 369,
+      "total": 859,
+      "transitionNational": 98,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(42.1kWh)",
+        "range": "(상온) 281km (저온) 231km",
+        "seats": "(소형) 4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "CASPER_C17",
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 크로스 17인치",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 487,
+      "local": 366,
+      "total": 853,
+      "transitionNational": 97,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(49kWh)",
+        "range": "(상온) 248km (저온) 227km",
+        "seats": "(소형) 4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "CASPER_L15",
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 항속형 15인치",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 490,
+      "local": 369,
+      "total": 859,
+      "transitionNational": 98,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(49kWh)",
+        "range": "(상온) 318km (저온) 254km",
+        "seats": "(소형) 4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "CASPER_L17",
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 항속형 17인치(라운지포함)",
+      "vehicleType": "passenger",
+      "category": "경·소형",
+      "categoryCode": "RIDELGT",
+      "national": 490,
+      "local": 369,
+      "total": 859,
+      "transitionNational": 98,
+      "transitionLocal": 29,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(49kWh)",
+        "range": "(상온) 295km (저온) 245km",
+        "seats": "(소형) 4인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "KONA_2WD_L17",
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 롱레인지 17인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 514,
+      "local": 354,
+      "total": 868,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(64.8kWh)",
+        "range": "(상온) 419km (저온) 340km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "CONA_ELEC_1",
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 롱레인지 17인치 빌트인 캠 미적용",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 514,
+      "local": 354,
+      "total": 868,
+      "transitionNational": 100,
+      "transitionLocal": 30,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(64.8kWh)",
+        "range": "(상온)419km (저온) 340km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "CONA_ELEC_2",
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 롱레인지 19인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 459,
+      "local": 316,
+      "total": 775,
+      "transitionNational": 92,
+      "transitionLocal": 28,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(64.8kWh)",
+        "range": "(상온)371km (저온) 307km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "KONA_2WD_S17",
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 스탠다드 17인치",
+      "vehicleType": "passenger",
+      "category": "일반승용",
+      "categoryCode": "RIDE",
+      "national": 437,
+      "local": 301,
+      "total": 738,
+      "transitionNational": 87,
+      "transitionLocal": 26,
+      "discontinued": false,
+      "specs": {
+        "battery": "리튬이온(48.6kWh)",
+        "range": "(상온) 313km (저온) 269km",
+        "seats": "5인승"
+      },
+      "checks": [
+        {
+          "id": "model",
+          "label": "공식 제조사·모델 코드 확인",
+          "passed": true
+        },
+        {
+          "id": "amounts",
+          "label": "공식 국비·지방비 금액 확인",
+          "passed": true
+        },
+        {
+          "id": "sum",
+          "label": "국비·지방비 합계 대조",
+          "passed": true
+        },
+        {
+          "id": "type",
+          "label": "차종·규격 확인",
+          "passed": true
+        },
+        {
+          "id": "transition",
+          "label": "모델별 전환지원금 확인",
+          "passed": true
+        },
+        {
+          "id": "national-crosscheck",
+          "label": "차량 지급대상 국비 원문 대조",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "fingerprint": "19050be36d6eab26d518b23f9e1f30a7f75fe8c7bfb14e0fc44cd7a35dd3f9d9"
+}

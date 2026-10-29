@@ -1,0 +1,1492 @@
+{
+  "year": 2026,
+  "checkedAt": "2026-10-29T02:07:22.296041Z",
+  "sourceUrl": "https://ev.or.kr/nportal/buySupprt/initSubsidyTargetVehicleAction.do",
+  "records": [
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 라운지 일렉트릭 7인승",
+      "vehicleType": "passenger",
+      "battery": "-",
+      "range": "-",
+      "seats": "-",
+      "national": "229만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 리무진 일렉트릭 6인승",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온) 370km (저온)290km",
+      "seats": "6인승",
+      "national": "229만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "ELECTRIFIED G80",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(94.6kWh)",
+      "range": "(상온)489km (저온) 380km",
+      "seats": "5인승",
+      "national": "270만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "ELECTRIFIED GV70 AWD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84.1kWh)",
+      "range": "(상온)405km (저온) 322km",
+      "seats": "5인승",
+      "national": "261만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "ELECTRIFIED GV70 AWD 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84.1kWh)",
+      "range": "(상온)405km (저온) 322km",
+      "seats": "5인승",
+      "national": "245만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온)462km (저온) 369km",
+      "seats": "5인승",
+      "national": "564만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 19인치 빌트인 캠 미적용",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온)462km (저온) 369km",
+      "seats": "5인승",
+      "national": "567만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온)462km (저온) 369km",
+      "seats": "5인승",
+      "national": "559만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온)448km (저온) 354km",
+      "seats": "5인승",
+      "national": "541만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 2WD 스탠다드 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(63.1kWh)",
+      "range": "(상온)368km (저온) 297km",
+      "seats": "5인승",
+      "national": "483만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 AWD 롱레인지 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)468km (저온) 379km",
+      "seats": "5인승",
+      "national": "558만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 AWD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온)434km (저온) 368km",
+      "seats": "5인승",
+      "national": "532만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉5 AWD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온)411km (저온) 343km",
+      "seats": "5인승",
+      "national": "510만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 롱레인지 18인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)475km (저온) 432km",
+      "seats": "5인승",
+      "national": "570만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)475km (저온) 432km",
+      "seats": "5인승",
+      "national": "570만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)475km (저온) 432km",
+      "seats": "5인승",
+      "national": "570만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 2WD 스탠다드 18인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(63kWh)",
+      "range": "(상온)422km (저온) 387km",
+      "seats": "5인승",
+      "national": "560만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 AWD 롱레인지 18인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)431km (저온) 382km",
+      "seats": "5인승",
+      "national": "570만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 AWD 롱레인지 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)431km (저온) 382km",
+      "seats": "5인승",
+      "national": "553만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "더 뉴 아이오닉6 AWD 롱레인지 N라인 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)431km (저온) 382km",
+      "seats": "5인승",
+      "national": "537만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉 9 성능형 AWD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(110.3kWh)",
+      "range": "(상온)503km (저온) 420km",
+      "seats": "6인승",
+      "national": "272만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉 9 항속형 2WD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(110.3kWh)",
+      "range": "(상온)503km (저온) 420km",
+      "seats": "6인승",
+      "national": "274만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉 9 항속형 AWD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(110.3kWh)",
+      "range": "(상온)503km (저온) 403km",
+      "seats": "6인승",
+      "national": "271만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 롱레인지 17인치 빌트인 캠 미적용",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(64.8kWh)",
+      "range": "(상온)419km (저온) 340km",
+      "seats": "5인승",
+      "national": "514만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 롱레인지 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(64.8kWh)",
+      "range": "(상온)371km (저온) 307km",
+      "seats": "5인승",
+      "national": "459만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "아이오닉6 N",
+      "vehicleType": "passenger",
+      "battery": "84 kWh",
+      "range": "(상온) 401km (저온) 351km",
+      "seats": "5인승",
+      "national": "250만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 롱레인지 17인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(64.8kWh)",
+      "range": "(상온) 419km (저온) 340km",
+      "seats": "5인승",
+      "national": "514만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "코나 일렉트릭 2WD 스탠다드 17인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(48.6kWh)",
+      "range": "(상온) 313km (저온) 269km",
+      "seats": "5인승",
+      "national": "437만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "GV60 스탠다드 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(77.4kWh)",
+      "range": "(상온) 470km (저온) 416km",
+      "seats": "5인승",
+      "national": "285만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "GV60 스탠다드 AWD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(77.4kWh)",
+      "range": "(상온) 403km (저온) 378km",
+      "seats": "5인승",
+      "national": "272만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "GV60 스탠다드 AWD 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(77.4kWh)",
+      "range": "(상온) 386km (저온) 358km",
+      "seats": "5인승",
+      "national": "261만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV5 스탠다드 2WD 18인치",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "456만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV5 스탠다드 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "453만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 5인승 (1-2-2 택시) 롱레인지",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "458만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 5인승 (1-2-2) 롱레인지",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "458만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 7인승 (2-2-3) 롱레인지",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "7인승",
+      "national": "455만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 프라임 롱레인지",
+      "vehicleType": "passenger",
+      "battery": ",",
+      "range": ",",
+      "seats": ".",
+      "national": "439만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV5 GT",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 378km (저온) 308km",
+      "seats": "5인승",
+      "national": "232만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV5 롱레인지 4WD 18인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 420km (저온) 330km",
+      "seats": "5인승",
+      "national": "499만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV5 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 406km (저온) 320km",
+      "seats": "5인승",
+      "national": "493만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV3 GT",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 414km (저온) 354km",
+      "seats": "5인승",
+      "national": "248만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV3 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 457km (저온) 372km",
+      "seats": "5인승",
+      "national": "539만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 GT",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 431km (저온) 349km",
+      "seats": "5인승",
+      "national": "255만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 484km (저온) 376km",
+      "seats": "5인승",
+      "national": "554만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 GT",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(99.8kWh)",
+      "range": "(상온) 421km (저온) 359km",
+      "seats": "6인승",
+      "national": "245만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "Pv5 WAV",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(71.2kWh)",
+      "range": "(상온) 345km (저온) 306km",
+      "seats": "5인승",
+      "national": "648만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV5 롱레인지 2WD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 460km (저온) 374km",
+      "seats": "5인승",
+      "national": "552만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 패신저 5인승 롱레인지",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(71.2kWh)",
+      "range": "(상온) 363km (저온) 296km",
+      "seats": "5인승",
+      "national": "458만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 스탠다드 2WD 17인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(58.3kWh)",
+      "range": "(상온) 391km (저온) 305km",
+      "seats": "5인승",
+      "national": "512만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 2WD 17인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 549km (저온) 440km",
+      "seats": "5인승",
+      "national": "555만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 514km (저온) 410km",
+      "seats": "5인승",
+      "national": "555만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 스탠다드 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(58.3kWh)",
+      "range": "(상온) 362km (저온) 291km",
+      "seats": "5인승",
+      "national": "481만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV4 롱레인지 GTL 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.4kWh)",
+      "range": "(상온) 509km (저온) 421km",
+      "seats": "5인승",
+      "national": "555만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 스탠다드",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(76.2kWh)",
+      "range": "(상온) 385km (저온) 307km",
+      "seats": "6, 7인승",
+      "national": "237만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 스탠다드",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(63.1kWh)",
+      "range": "(상온) 389km (저온) 304km",
+      "seats": "5인승",
+      "national": "501만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV3 롱레인지 2WD 17인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.3kWh)",
+      "range": "(상온) 510km (저온) 401km",
+      "seats": "5인승",
+      "national": "555만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV3 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.3kWh)",
+      "range": "(상온) 485km (저온) 382km",
+      "seats": "5인승",
+      "national": "555만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV3 스탠다드 2WD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(58.3kWh)",
+      "range": "(상온) 347km (저온) 292km",
+      "seats": "5인승",
+      "national": "469만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온) 505km (저온) 391km",
+      "seats": "5인승",
+      "national": "570만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 2WD 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온) 462km (저온) 370km",
+      "seats": "5인승",
+      "national": "559만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온) 461km (저온) 380km",
+      "seats": "5인승",
+      "national": "561만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "더뉴EV6 롱레인지 4WD 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.6kWh)",
+      "range": "(상온) 437km (저온) 353km",
+      "seats": "5인승",
+      "national": "532만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 2WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(99.8kWh)",
+      "range": "(상온) 508km (저온) 368km",
+      "seats": "6, 7인승",
+      "national": "270만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 2WD 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(99.8kWh)",
+      "range": "(상온) 490km (저온) 370km",
+      "seats": "6, 7인승",
+      "national": "268만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 4WD 19인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(99.8kWh)",
+      "range": "(상온) 453km (저온) 337km",
+      "seats": "6, 7인승",
+      "national": "254만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 4WD 21인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(99.8kWh)",
+      "range": "(상온) 461km (저온) 352km",
+      "seats": "6, 7인승",
+      "national": "260만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "EV9 롱레인지 GTL 4WD 21인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(99.8kWh)",
+      "range": "(상온) 452km (저온) 321km",
+      "seats": "6, 7인승",
+      "national": "252만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "New MINI Countryman E",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 399km (저온) 317km",
+      "seats": "5인승",
+      "national": "217만"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "New MINI Countryman SE ALL4",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 375km (저온) 303km",
+      "seats": "5인승",
+      "national": "203만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX3 50 xDrive SE",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "285만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX1 eDrive20(11HM)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 392km (저온) 328km",
+      "seats": "-",
+      "national": "235만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX2 eDrive20(71GN)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 397km (저온) 328km",
+      "seats": "-",
+      "national": "239만"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX3 50 xDrive",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(113.4kWh) ",
+      "range": "(상온) 615km (저온) 568km",
+      "seats": "5인승",
+      "national": "285만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "i4 M60 LCI (71HD)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.9kWh)",
+      "range": "(상온) 415km (저온) 315km",
+      "seats": "5인승",
+      "national": "233만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "i4 eDrive 40 LCI(21HD)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.9kWh)",
+      "range": "(상온) 439km (저온) 331km",
+      "seats": "5인승",
+      "national": "244만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "i4 eDrive 40 LCI(61HD)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.9kWh)",
+      "range": "(상온) 464km (저온) 337km",
+      "seats": "5인승",
+      "national": "256만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "i5 eDrive 40",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(83.9kWh)",
+      "range": "(상온) 497km (저온) 356km",
+      "seats": "5인승",
+      "national": "262만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX1 eDrive20",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 354km (저온) 288km",
+      "seats": "5인승",
+      "national": "212만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI Cooper SE",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(54.2kWh)",
+      "range": "(상온)320km (저온)241km",
+      "seats": "4인승",
+      "national": "396만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI Aceman E",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(54.2kWh)",
+      "range": "(상온)322km (저온)243km",
+      "seats": "5인승",
+      "national": "400만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI JCW Aceman E",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(54.2kWh)",
+      "range": "(상온)315km (저온)249km",
+      "seats": "5인승",
+      "national": "197만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI JCW E",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(54.2kWh)",
+      "range": "(상온)303km (저온)243km",
+      "seats": "4인승",
+      "national": "191만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI Aceman SE",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(54.2kWh)",
+      "range": "(상온) 322km (저온) 243km",
+      "seats": "5인승",
+      "national": "400만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI Countryman E",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 367km (저온) 286km",
+      "seats": "5인승",
+      "national": "238만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "MINI Countryman SE ALL4",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 344km (저온) 268km",
+      "seats": "5인승",
+      "national": "225만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX2 eDrive20",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 358km (저온) 275km",
+      "seats": "5인승",
+      "national": "214만원"
+    },
+    {
+      "manufacturer": "BMW",
+      "modelName": "iX1 xDrive30",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66.4kWh)",
+      "range": "(상온) 313km (저온) 268km",
+      "seats": "5인승",
+      "national": "192만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 RWD (2027)",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "217만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y premium L AWD",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "6인승",
+      "national": "215만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y L AWD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(88.2kWh)",
+      "range": "(상온) 553km (저온) 454km",
+      "seats": "6인승",
+      "national": "215만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y Long Range(2025)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온 (84.7kWh)",
+      "range": "(상온) 523km (저온) 396km",
+      "seats": "5인승",
+      "national": "210만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y RWD(2025)",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(62.1kWh)",
+      "range": "(상온) 400km (저온) 302km",
+      "seats": "5인승",
+      "national": "170만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 Premium Long Range RWD",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84.7kWh)",
+      "range": "(상온) 551km (저온) 419km",
+      "seats": "5인승",
+      "national": "210만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y Premium Long Range",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(84.7kWh)",
+      "range": "(상온) 523km (저온) 396km",
+      "seats": "5인승",
+      "national": "210만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model Y Premium RWD",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(62.1kWh)",
+      "range": "(상온) 400km (저온) 302km",
+      "seats": "5인승",
+      "national": "170만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 RWD",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(62.1kWh)",
+      "range": "(상온) 399km (저온) 309km",
+      "seats": "5인승",
+      "national": "168만원"
+    },
+    {
+      "manufacturer": "테슬라코리아",
+      "modelName": "Model 3 Performance",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(81.65kWh)",
+      "range": "(상온) 430km (저온) 358km",
+      "seats": "5인승",
+      "national": "200만원"
+    },
+    {
+      "manufacturer": "메르세데스벤츠코리아",
+      "modelName": "EQB 300 4MATIC(Facelift)(CY25-2)",
+      "vehicleType": "passenger",
+      "battery": "NCM(68.8kWh)",
+      "range": "(상온) 318km (저온) 279km",
+      "seats": "5인승",
+      "national": "162만원"
+    },
+    {
+      "manufacturer": "메르세데스벤츠코리아",
+      "modelName": "EQA 250(Facelift)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(68.6kWh)",
+      "range": "(상온) 367km (저온) 298km",
+      "seats": "5인승",
+      "national": "190만원"
+    },
+    {
+      "manufacturer": "메르세데스벤츠코리아",
+      "modelName": "EQB 300 4MATIC(Facelift)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(68.6kWh)",
+      "range": "(상온) 302km (저온) 225km",
+      "seats": "5인승",
+      "national": "154만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 18인치(2026)",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(80.66kWh)",
+      "range": "(상온)448km (저온) 407km",
+      "seats": "5인승",
+      "national": "361만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 20인치(2026)",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(80.66kWh)",
+      "range": "(상온)433km (저온) 399km",
+      "seats": "5인승",
+      "national": "354만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 18인치",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(80.7kWh)",
+      "range": "(상온) 452km (저온) 341km",
+      "seats": "5인승",
+      "national": "354만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 20인치",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(80.7kWh)",
+      "range": "(상온) 436km (저온) 310km",
+      "seats": "5인승",
+      "national": "344만원"
+    },
+    {
+      "manufacturer": "폴스타오토모티브코리아",
+      "modelName": "Polestar 3 Rear Motor",
+      "vehicleType": "passenger",
+      "battery": ".",
+      "range": ".",
+      "seats": "5인승",
+      "national": "162만원"
+    },
+    {
+      "manufacturer": "폴스타오토모티브코리아",
+      "modelName": "Polestar 4 Coupe Dual Motor",
+      "vehicleType": "passenger",
+      "battery": "-",
+      "range": "-",
+      "seats": "-",
+      "national": "168만원"
+    },
+    {
+      "manufacturer": "폴스타오토모티브코리아",
+      "modelName": "Polestar 4 Coupe Rear Motor",
+      "vehicleType": "passenger",
+      "battery": "-",
+      "range": "-",
+      "seats": "-",
+      "national": "181만원"
+    },
+    {
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "볼보 EX30 P5 LR",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66kWh)",
+      "range": "(상온) 372km (저온) 309km",
+      "seats": "5인승",
+      "national": "263만원"
+    },
+    {
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "볼보 ES90 Twin Motor",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(106kWh) ",
+      "range": "(상온) 520km (저온) 469km",
+      "seats": "5인승",
+      "national": "174만원"
+    },
+    {
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "볼보 EX30CC Twin Motor Perf",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66kWh)",
+      "range": "(상온) 338km (저온) 280km",
+      "seats": "5인승",
+      "national": "222만원"
+    },
+    {
+      "manufacturer": "볼보자동차코리아",
+      "modelName": "볼보 EX30 Single Motor ER",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(66kWh)",
+      "range": "(상온) 351km (저온) 302km",
+      "seats": "5인승",
+      "national": "247만원"
+    },
+    {
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "ID.5 Pro",
+      "vehicleType": "passenger",
+      "battery": "리튬이온 (82.8kWh)",
+      "range": "(상온) 451km (저온) 341km",
+      "seats": "5인승",
+      "national": "473만"
+    },
+    {
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "ID.4 Pro",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(82.8kWh)",
+      "range": "(상온) 424km (저온) 296km",
+      "seats": "5인승",
+      "national": "432만원"
+    },
+    {
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "Q4 45 e-tron",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(82.8kWh)",
+      "range": "(상온) 406km (저온) 285km",
+      "seats": "5인승",
+      "national": "206만원"
+    },
+    {
+      "manufacturer": "폭스바겐그룹코리아",
+      "modelName": "Q4 Sportback 45 e-tron",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(82.8kWh)",
+      "range": "(상온) 406km (저온) 285km",
+      "seats": "5인승",
+      "national": "206만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "레이 EV 2WD 14인치 1인승 밴",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(35.2kWh)",
+      "range": "(상온) 211km (저온) 176km",
+      "seats": "(경형) 1인승",
+      "national": "457만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "레이 EV 2WD 14인치 2인승 밴",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(35.2kWh)",
+      "range": "(상온) 211km (저온) 176km",
+      "seats": "(경형) 2인승",
+      "national": "457만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "레이 EV 2WD 14인치 4인승 승용",
+      "vehicleType": "passenger",
+      "battery": "리튬인산철(35.2kWh)",
+      "range": "(상온) 211km (저온) 176km",
+      "seats": "(경형) 4인승",
+      "national": "457만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 크로스 17인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(49kWh)",
+      "range": "(상온) 248km (저온) 227km",
+      "seats": "(소형) 4인승",
+      "national": "487만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 기본형 15인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(42.1kWh)",
+      "range": "(상온) 281km (저온) 231km",
+      "seats": "(소형) 4인승",
+      "national": "490만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 항속형 15인치",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(49kWh)",
+      "range": "(상온) 318km (저온) 254km",
+      "seats": "(소형) 4인승",
+      "national": "490만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "캐스퍼 일렉트릭 항속형 17인치(라운지포함)",
+      "vehicleType": "passenger",
+      "battery": "리튬이온(49kWh)",
+      "range": "(상온) 295km (저온) 245km",
+      "seats": "(소형) 4인승",
+      "national": "490만원"
+    },
+    {
+      "manufacturer": "디피코",
+      "modelName": "포트로-픽업S",
+      "vehicleType": "cargo",
+      "battery": "리튬이온폴리머(15.03kWh)",
+      "range": "(상온) 75.7km (저온) 73.5km",
+      "seats": "(경형-초소형) 2인승",
+      "national": "380만원"
+    },
+    {
+      "manufacturer": "디피코",
+      "modelName": "포트로-탑S",
+      "vehicleType": "cargo",
+      "battery": "리튬이온폴리머(15.03kWh)",
+      "range": "(상온) 75.7km (저온) 73.5km",
+      "seats": "(경형-초소형) 2인승",
+      "national": "380만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 카고 일렉트릭 3인승",
+      "vehicleType": "cargo",
+      "battery": "NCM(84kWh)",
+      "range": "(상온) 395km (저온) 294km",
+      "seats": "(소형) 3인승",
+      "national": "1,200만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "스타리아 카고 일렉트릭 5인승",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(84kWh)",
+      "range": "(상온)395km (저온)294km",
+      "seats": "5인승",
+      "national": "1,200만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 수동식 윙바디",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 175km (저온) 141km",
+      "seats": "(소형) 3인승",
+      "national": "780만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 전동식 윙바디",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 175km (저온) 141km",
+      "seats": "(소형) 3인승",
+      "national": "780만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ일렉트릭파워게이트",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 175km (저온) 141km",
+      "seats": "(소형) 3인승",
+      "national": "780만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "ST1 기본형 하이탑",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(75.8kWh)",
+      "range": "(상온) 289km (저온) 216km",
+      "seats": "(소형) 2인승",
+      "national": "1,100만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "ST1 기본형 카고",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(75.8kWh)",
+      "range": "(상온) 317km (저온) 214km",
+      "seats": "(소형) 2인승",
+      "national": "1,200만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "ST1 기본형 카고냉동",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(75.8kWh)",
+      "range": "(상온) 298km (저온) 214km",
+      "seats": "(소형) 2인승",
+      "national": "1,450만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 내장탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 179km (저온) 150km",
+      "seats": "(소형) 3인승",
+      "national": "780만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 저상내장탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 179km (저온) 150km",
+      "seats": "(소형) 3인승",
+      "national": "780만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터Ⅱ 일렉트릭 하이내장탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 179km (저온) 150km",
+      "seats": "(소형) 3인승",
+      "national": "780만원"
+    },
+    {
+      "manufacturer": "현대자동차",
+      "modelName": "포터 Ⅱ 일렉트릭",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 220km (저온) 190km",
+      "seats": "(소형) 3인승",
+      "national": "968만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 컴팩트 스탠다드 3도어",
+      "vehicleType": "cargo",
+      "battery": ".",
+      "range": ".",
+      "seats": ".",
+      "national": "1,000만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 컴팩트 스탠다드 4도어",
+      "vehicleType": "cargo",
+      "battery": ".",
+      "range": ".",
+      "seats": ".",
+      "national": "1,000만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 오픈베드 롱레인지",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(71.2kWh)",
+      "range": "(상온) 330km (저온) 295km",
+      "seats": "2인승",
+      "national": "1,150만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 오픈베드 스탠다드",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(51.5kWh)",
+      "range": "(상온) 250km (저온) 220km",
+      "seats": "2인승",
+      "national": "1,000만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 롱레인지 3도어",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(71.2kWh)",
+      "range": "(상온) 378km (저온) 316km",
+      "seats": "2인승",
+      "national": "1,150만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 롱레인지 4도어",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(71.2kWh)",
+      "range": "(상온) 378km (저온) 316km",
+      "seats": "2인승",
+      "national": "1,150만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 스탠다드 3도어",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(51.5kWh)",
+      "range": "(상온) 280km (저온) 231km",
+      "seats": "2인승",
+      "national": "1,000만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "PV5 카고 롱 스탠다드 4도어",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(51.5kWh)",
+      "range": "(상온) 271km (저온) 218km",
+      "seats": "2인승",
+      "national": "1,000만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 로우 냉동탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 185km (저온) 151km",
+      "seats": "(소형) 3인승",
+      "national": "1,172만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 하이 냉동탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 185km (저온) 151km",
+      "seats": "(소형) 3인승",
+      "national": "1,172만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 내장탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 로우 내장탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 185km (저온) 151km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 로우 양문형 미닫이탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 수동식 윙바디",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 수직형 파워게이트",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 양문형 미닫이탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 전동식 윙바디",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 턴인형 파워게이트",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 하이 내장탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(60.4kWh)",
+      "range": "(상온) 185km (저온) 151km",
+      "seats": "(소형) 3인승",
+      "national": "822만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차 냉동탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 181km (저온) 152km",
+      "seats": "(소형) 3인승",
+      "national": "1,172만원"
+    },
+    {
+      "manufacturer": "기아",
+      "modelName": "봉고 전기차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(58.86kWh)",
+      "range": "(상온) 220km (저온) 172km",
+      "seats": "(소형) 3인승",
+      "national": "1,000만원"
+    },
+    {
+      "manufacturer": "오텍",
+      "modelName": "오텍ST1 초경량 냉동탑차",
+      "vehicleType": "cargo",
+      "battery": "리튬이온((76.1kWh)",
+      "range": "(상온) 292km (저온) 220km",
+      "seats": "2인승",
+      "national": "1,450만원"
+    },
+    {
+      "manufacturer": "한국쓰리축",
+      "modelName": "한국쓰리축1톤ST1트럭",
+      "vehicleType": "cargo",
+      "battery": "리튬이온(76.2kWh)",
+      "range": "(상온) 328km (저온) 214km",
+      "seats": "(소형) 2인승",
+      "national": "1,200만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 밴 18인치(2026)",
+      "vehicleType": "cargo",
+      "battery": "리튬인산철(80.66kWh)",
+      "range": "(상온) 431km (저온) 406km",
+      "seats": "2인승",
+      "national": "355만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 밴 18인치",
+      "vehicleType": "cargo",
+      "battery": "리튬인산철(80.7kWh)",
+      "range": "(상온) 430km (저온) 354km",
+      "seats": "(소형) 2인승",
+      "national": "348만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "MUSSO EV AWD 17인치",
+      "vehicleType": "cargo",
+      "battery": "리튬인산철(80.7kWh)",
+      "range": "(상온) 342km (저온) 297km",
+      "seats": "(소형) 5인승",
+      "national": "618만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "토레스 EVX 밴 20인치",
+      "vehicleType": "cargo",
+      "battery": "리튬인산철(80.7kWh)",
+      "range": "(상온) 421km (저온) 355km",
+      "seats": "(소형) 2인승",
+      "national": "344만원"
+    },
+    {
+      "manufacturer": "케이지모빌리티",
+      "modelName": "MUSSO EV 2WD 17인치",
+      "vehicleType": "cargo",
+      "battery": "리튬인산철(80.7kWh)",
+      "range": "(상온) 401km (저온) 357km",
+      "seats": "(소형) 5인승",
+      "national": "639만원"
+    },
+    {
+      "manufacturer": "타타대우모빌리티",
+      "modelName": "기쎈",
+      "vehicleType": "cargo",
+      "battery": "리튬인산철(150kWh)",
+      "range": "(상온) 298km",
+      "seats": "(중형) 3인승",
+      "national": "1,920만원"
+    }
+  ]
+}
