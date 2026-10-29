@@ -1,5 +1,5 @@
 import { inflateRawSync } from 'node:zlib';
-import type { BenefitRule } from './benefit-types';
+import type { BenefitReviewRule, BenefitRule } from './benefit-types';
 
 export const MAX_POLICY_ZIP_BYTES = 4 * 1024 * 1024;
 const MAX_SECTION_BYTES = 3 * 1024 * 1024;
@@ -166,7 +166,7 @@ export function extractHwpxText(bytes: Uint8Array): string {
   return sections.map(s => s.text).join('\n');
 }
 
-type ParsedBenefitPolicy = { rules: BenefitRule[]; sharedFunding: boolean; additivePercentages: boolean; fixedAfterPercentages: boolean };
+type ParsedBenefitPolicy = { rules: BenefitRule[]; reviewRules: BenefitReviewRule[]; sharedFunding: boolean; additivePercentages: boolean; fixedAfterPercentages: boolean };
 const compact = (s: string) => s.normalize('NFKC').replace(/\s+/g, '');
 const money = (s: string) => Number(s.replace(/,/g, ''));
 function positive(value: number, max = 10_000): number {
@@ -190,9 +190,10 @@ export function parseBenefitPolicyText(text: string, year: number): ParsedBenefi
   const cargoMicro = header('4-3-4.초소형');
   const end = cs.findIndex((s, i) => i > cargoMicro && s.startsWith('5.보조금집행절차'));
   requirePolicy(passengerCommon < passengerStandard && passengerStandard < passengerMicro && passengerMicro < bus && bus < cargoCommon && cargoCommon < cargoMedium && cargoMedium < cargoSmall && cargoSmall < cargoMicro && cargoMicro < end, '지침 차종 순서가 바뀌었습니다.');
-  for (const [pattern, expected] of [[/^○청년/, 2], [/^○다자녀/, 1], [/^○전기택시/, 1], [/^○택배용차량/, 2], [/^○(?:소상공인|차상위이하계층에해당하는개인,소상공인)/, 2]] as const) {
+  for (const [pattern, expected] of [[/^○청년/, 2], [/^○다자녀/, 1], [/^○전기택시/, 1], [/^○택배용차량/, 2], [/^○(?:소상공인|차상위이하계층에해당하는개인,소상공인)/, 2], [/^○차상위이하계층/, 4], [/^○농업인/, 2], [/^○기존노후전기차/, 1], [/^-리스\/렌탈사업목적/, 1]] as const) {
     requirePolicy(cs.filter(s => pattern.test(s)).length === expected, '지원 조항의 자격 또는 적용 범위가 추가·변경되었습니다.');
   }
+  requirePolicy(cs.filter(s => /^(?:○|-).*지역거점사업.*추가지원/.test(s)).length === 2, '지역거점 사업 지원 차종 범위를 확인해야 합니다.');
   const sharing = '○지방자치단체는차종별국비보조금산정수준에비례하여지방비보조금을차종별로차등적으로산정해야하며,구매자특성에따른추가지원금의경우도국비와지방비비율에따라분담하여지원되도록해야함';
   requirePolicy(cs.slice(passengerCommon, passengerStandard).includes(sharing) && cs.slice(cargoCommon, cargoMedium).includes(sharing), '추가 지원금 분담 규칙이 바뀌었습니다.');
   requirePolicy(cs.slice(passengerCommon, passengerStandard).includes('○구매자특성에따른추가지원금은중복지원가능.단,정액지원(예:다자녀가구지원등)금액은일정비율(%)추가지원금액을산정한이후마지막에더하도록함'), '승용 중복 또는 정액 지원 순서를 확인해야 합니다.');
@@ -210,6 +211,10 @@ export function parseBenefitPolicyText(text: string, year: number): ParsedBenefi
   requirePolicy(y && youth.values.length === 1 && microYouth.values.length === 1 && microYouth.values[0] === youth.values[0], '청년 추가 지원 자격 또는 차종 범위가 바뀌었습니다.');
   const minAge = positive(Number(y[1]), 100), maxAge = positive(Number(y[2]), 100), youthRate = positive(Number(y[3]), 100);
   requirePolicy(minAge <= maxAge && minAge >= 18, '청년 나이 기준을 확인해야 합니다.');
+  const lowIncome = block(passengerStandard, passengerMicro, '○차상위이하계층'), microLowIncome = block(passengerMicro, bus, '○차상위이하계층');
+  const low = lowIncome.values[0].match(/^○차상위이하계층에해당하는개인이구매시해당차량국비지원액의(\d+(?:\.\d+)?)%추가지원$/);
+  requirePolicy(low && lowIncome.values.length === 1 && microLowIncome.values.length === 1 && microLowIncome.values[0] === lowIncome.values[0], '차상위 이하 승용 지원 자격 또는 차종 범위가 바뀌었습니다.');
+  const lowIncomeRate = positive(Number(low[1]), 100);
   const child = block(passengerStandard, passengerMicro, '○다자녀가구(');
   const c = child.values[0].match(/^○다자녀가구\((\d+)세이하자녀2명이상\)에해당하는개인이구매시자녀수에따라최대([\d,]+)만원\*?추가지원$/);
   const amounts = child.values[1]?.match(/^\*\(2자녀\)([\d,]+)만원,\(3자녀\)([\d,]+)만원,\(4자녀이상\)([\d,]+)만원$/);
@@ -221,6 +226,11 @@ export function parseBenefitPolicyText(text: string, year: number): ParsedBenefi
   const b = business.values[0].match(/^○차상위이하계층에해당하는개인,소상공인이구매시해당차량국비지원액의(\d+(?:\.\d+)?)%추가지원$/);
   requirePolicy(b && business.values.length === 1 && microBusiness.values.length === 1 && business.values[0] === microBusiness.values[0], '소상공인 자격 또는 차종 범위가 바뀌었습니다.');
   const businessRate = positive(Number(b[1]), 100);
+  const farmer = block(cargoSmall, cargoMicro, '○농업인'), microFarmer = block(cargoMicro, end, '○농업인');
+  const f = farmer.values[0].match(/^○농업인\*이구매시해당차량국비지원액의(\d+(?:\.\d+)?)%추가지원$/);
+  const farmerCondition = '*「농업·농촌및식품산업기본법시행령」제3조및「농업인확인서발급규정」에따른농업인확인서또는「농어업경영체육성및지원에관한법률시행규칙」제3조에따른농업경영체등록확인서(또는증명서)를제출받아확인';
+  requirePolicy(f && farmer.values.length === 2 && farmer.values[1] === farmerCondition && microFarmer.values.join('\n') === farmer.values.join('\n'), '농업인 지원 자격 또는 차종 범위가 바뀌었습니다.');
+  const farmerRate = positive(Number(f[1]), 100);
   const delivery = block(cargoSmall, cargoMicro, '○택배용차량'), microDelivery = block(cargoMicro, end, '○택배용차량');
   const d = delivery.values[0].match(/^○택배용차량\*?으로전기화물차구매시국비지원액의(\d+(?:\.\d+)?)%추가지원$/);
   const deliveryCondition = '*「화물자동차법」제2조제3호에따른운송사업중화물을집화·분류·배송하는형태의운송사업에사용되는자동차';
@@ -234,12 +244,43 @@ export function parseBenefitPolicyText(text: string, year: number): ParsedBenefi
   const taxi = block(passengerStandard, passengerMicro, '○전기택시에대해서는');
   const t = taxi.values[0].match(/^○전기택시에대해서는해당차량보조금에([\d,]+)만원추가지원\*?$/);
   requirePolicy(t && taxi.values.length === 3 && taxi.values[1] === '*구매자가택시사업자면허를가진경우추가지원(증빙자료로면허증사본제출),택시법인에대해서는중소기업이구매하는경우에한정하여추가지원' && taxi.values[2] === '※지역별이동여건을고려하여법인(중소기업한정)의전기택시구매에대해재지원제한기간적용없이지자체보조가능' && !cs.slice(passengerMicro, bus).some(s => s.startsWith('○전기택시')), '택시 지원 자격 또는 차종 범위가 바뀌었습니다.');
+  // These grants require evidence beyond a buyer checkbox. Publish verified,
+  // current terms for review without adding an unconfirmed amount to the total.
+  const oldEv = block(passengerStandard, passengerMicro, '○기존노후전기차');
+  const old = oldEv.values[0].match(/^○기존노후전기차\(BMS안전기능\*업데이트가불가능한차량에한함\)를폐차하고전기차를재구매하는경우([\d,]+)만원추가지원\([’'](\d{2}|\d{4})\.(\d{1,2})\.(\d{1,2})\.까지지원\)$/);
+  requirePolicy(old && oldEv.values.length === 2 && oldEv.values[1] === '*배터리이상을주차중에도감지(상시또는간헐)하고차주및제작사에알리는기능', '노후 전기차 추가 지원 자격 또는 기한을 확인해야 합니다.');
+  const expiryYear = old[2].length === 2 ? Math.floor(year / 100) * 100 + Number(old[2]) : Number(old[2]);
+  const expiresOn = `${expiryYear}-${old[3].padStart(2, '0')}-${old[4].padStart(2, '0')}`;
+  requirePolicy(Number.isFinite(Date.parse(expiresOn)) && new Date(expiresOn).toISOString().slice(0, 10) === expiresOn, '노후 전기차 지원 종료일이 올바르지 않습니다.');
+  const lease = block(passengerStandard, passengerMicro, '○개인사업자나법인이');
+  const leasePurchase = lease.values[0].match(/^○개인사업자나법인이(\d+)년이내(\d+)대이상의전기차를구매하려는경우민간보조사업을통해국비만지원하고[‘']재지원제한기간[’']미적용$/);
+  const leaseAmount = lease.values[2]?.match(/^-리스\/렌탈사업목적으로구매\(증빙서류제출필요\)하는경우([\d,]+)만원이내\*추가지원$/);
+  requirePolicy(leasePurchase && leaseAmount && lease.values.length === 5 && /^※[’']\d{2}\.\d{1,2}월이후지방비보조금이소진되는경우개인구매에대해서도민간보조사업을통해국비만지원\(추가지원및인센티브포함\)할수있도록허용하되재지원제한기간은적용$/.test(lease.values[1]) && lease.values[3] === '*차종별일반국비보조금(추가지원금外)산정수준에비례하여차등산정' && lease.values[4] === '※이용자명의리스등과같이차량등록증상명의가개인(구매자)인경우개인구매기준적용(단,계약서등을통해보조금회수의무이행주체를명확히지정하고,증빙자료를제출하여야함)', '리스·렌탈 사업 목적 지원 조건을 확인해야 합니다.');
+  positive(Number(leasePurchase[1]), 100); positive(Number(leasePurchase[2]), 100_000);
+  const passengerProject = block(passengerMicro, bus, '○차량종류에관계없이국비기준');
+  const passengerProjectAmount = passengerProject.values[0].match(/^○차량종류에관계없이국비기준([\d,]+)만원정액지원,다만구매자가초소형전기차활용확대\*를위한지역거점사업의일환으로구매한다는사실을증빙\*\*하는경우([\d,]+)만원추가지원$/);
+  const projectEvidence = '증빙서류예시(별지5호참고):사업계획서,사업참여신청서,차량제조사확인서등';
+  requirePolicy(passengerProjectAmount && passengerProject.values.length === 3 && passengerProject.values[1] === '*도심내영업용(배달·관광등),단거리교통수단으로활용등' && passengerProject.values[2] === `**${projectEvidence}`, '초소형 승용 지역거점 사업의 자격을 확인해야 합니다.');
+  positive(money(passengerProjectAmount[1]));
+  const cargoProject = block(cargoMicro, end, '○차량종류에관계없이초소형전기화물차');
+  const cargoProjectBase = cargoProject.values[0].match(/^○차량종류에관계없이초소형전기화물차는국비기준([\d,]+)만원정액지원$/);
+  const cargoProjectAmount = cargoProject.values[1]?.match(/^-다만,초소형전기화물차를해당차량활용확대\(도심내영업용,단거리교통수단등\)를위한지역거점사업추진목적으로구매하는경우([\d,]+)만원추가지원$/);
+  requirePolicy(cargoProjectBase && cargoProjectAmount && cargoProject.values.length === 5 && cargoProject.values[2] === `※${projectEvidence}` && cargoProject.values[3] === '※原제조국에서전기화물로판매하는차량만전기화물로인정' && cargoProject.values[4] === '※제거가불가한고정형격벽설치시에만전기화물로인정' && money(cargoProjectAmount[1]) === money(passengerProjectAmount[2]), '초소형 화물 지역거점 사업의 자격 또는 금액을 확인해야 합니다.');
+  positive(money(cargoProjectBase[1]));
   const rules: BenefitRule[] = [
     { id: 'children', label: '다자녀', kind: 'children', value: childAmounts[4], childAmounts, scope: 'passenger-standard', requirement: `${childAge}세 이하 자녀 2명 이상 · 개인 구매자`, clause: child.clause },
     { id: 'youth', label: '청년 생애 첫 자동차', kind: 'percent', value: youthRate, scope: 'passenger-all', requirement: `${minAge}~${maxAge}세 개인 · 생애 첫 자동차로 전기차 구매`, clause: youth.clause },
     { id: 'smallBusiness', label: '소상공인', kind: 'percent', value: businessRate, scope: 'cargo-small-light-micro', requirement: '소상공인 자격 및 지자체 증빙서류 확인 필요', clause: business.clause },
     { id: 'delivery', label: '택배용 차량', kind: 'percent', value: deliveryRate, scope: 'cargo-small-light-micro', requirement: '화물을 집화·분류·배송하는 법정 운송사업용 자동차', clause: delivery.clause },
     { id: 'taxi', label: '전기택시', kind: 'fixed', value: positive(money(t[1])), scope: 'passenger-standard', requirement: '택시사업자 면허 · 법인택시는 중소기업 한정', clause: taxi.clause },
+    { id: 'lowIncomePassenger', label: '차상위 이하', kind: 'percent', value: lowIncomeRate, scope: 'passenger-all', requirement: '차상위 이하 계층에 해당하는 개인 · 자격 증빙 필요', clause: lowIncome.clause },
+    { id: 'lowIncomeCargo', label: '차상위 이하', kind: 'percent', value: businessRate, scope: 'cargo-small-light-micro', requirement: '차상위 이하 계층에 해당하는 개인 · 소상공인 추가지원과 중복 합산 불가', clause: business.clause },
+    { id: 'farmer', label: '농업인', kind: 'percent', value: farmerRate, scope: 'cargo-small-light-micro', requirement: '농업인 확인서 또는 농업경영체 등록확인서·증명서 필요', clause: farmer.clause },
   ];
-  return { rules, sharedFunding: true, additivePercentages: true, fixedAfterPercentages: true };
+  const reviewRules: BenefitReviewRule[] = [
+    { id: 'oldEv', label: '노후 전기차 폐차', amountLabel: `${positive(money(old[1]))}만원`, requirement: `BMS 안전기능 업데이트가 불가능한 전기차 폐차 후 재구매 · ${expiresOn}까지 · 증빙 확인 필요`, clause: oldEv.clause, scopes: ['passenger-standard'], expiresOn },
+    { id: 'lease', label: '리스·렌탈 사업 목적 구매', amountLabel: `최대 ${positive(money(leaseAmount[1]))}만원`, requirement: `개인사업자·법인 ${leasePurchase[1]}년 이내 ${leasePurchase[2]}대 이상 구매 등 민간보조사업 · 사업 목적 증빙 · 차종별 국비에 비례 · 이용자 명의는 개인 구매 기준`, clause: lease.clause, scopes: ['passenger-standard'] },
+    { id: 'microProject', label: '초소형 지역거점 사업', amountLabel: `${positive(money(passengerProjectAmount[2]))}만원`, requirement: '지역거점 사업 참여 사실 및 사업계획서·참여신청서 등 증빙 필요', clause: `${passengerProject.clause} ${cargoProject.clause}`, scopes: ['passenger-micro', 'cargo-micro'] },
+  ];
+  return { rules, reviewRules, sharedFunding: true, additivePercentages: true, fixedAfterPercentages: true };
 }

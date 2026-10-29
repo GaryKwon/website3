@@ -1,13 +1,15 @@
-export type BenefitId = 'children' | 'youth' | 'smallBusiness' | 'delivery' | 'taxi';
+export type BenefitId = 'children' | 'youth' | 'smallBusiness' | 'delivery' | 'taxi' | 'lowIncomePassenger' | 'lowIncomeCargo' | 'farmer';
 export type BenefitProfile = {
   children: 0 | 2 | 3 | 4;
   youth: boolean;
   smallBusiness: boolean;
   delivery: boolean;
   taxi: boolean;
+  lowIncome: boolean;
+  farmer: boolean;
 };
 export const EMPTY_BENEFIT_PROFILE: BenefitProfile = {
-  children: 0, youth: false, smallBusiness: false, delivery: false, taxi: false,
+  children: 0, youth: false, smallBusiness: false, delivery: false, taxi: false, lowIncome: false, farmer: false,
 };
 export type BenefitScope = 'passenger-standard' | 'passenger-all' | 'cargo-small-light-micro';
 export type BenefitRule = {
@@ -20,6 +22,15 @@ export type BenefitRule = {
   requirement: string;
   clause: string;
 };
+export type BenefitReviewRule = {
+  id: 'oldEv' | 'lease' | 'microProject';
+  label: string;
+  amountLabel: string;
+  requirement: string;
+  clause: string;
+  scopes: ('passenger-standard' | 'passenger-micro' | 'cargo-micro')[];
+  expiresOn?: string;
+};
 export type BenefitPolicy = {
   year: number;
   revision: string;
@@ -29,6 +40,7 @@ export type BenefitPolicy = {
   fingerprint: string | null;
   sourceStatus: 'live' | 'unavailable';
   rules: BenefitRule[];
+  reviewRules?: BenefitReviewRule[];
   sharedFunding: boolean;
   additivePercentages: boolean;
   fixedAfterPercentages: boolean;
@@ -48,7 +60,7 @@ export type LocalBenefitInfo = {
   sourceUrl: string;
   noticeText: string;
   notices: LocalBenefitNotice[];
-  signals: { id: string; label: string; excerpt: string }[];
+  signals: { id: string; label: string; excerpt: string; kind?: 'restriction' | 'deduction' | 'closure' | 'program' | 'benefit' | 'general' }[];
   // Free-text notices are evidence to review, never an automatic monetary award.
   monetaryVerification: 'local-notice-required';
 };

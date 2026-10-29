@@ -60,19 +60,65 @@ export function localBenefitSignals(value: string): LocalBenefitInfo['signals'] 
     ['smallBusiness', '소상공인 관련 공고', /소상공인/],
     ['delivery', '택배 관련 공고', /택배/],
     ['taxi', '택시 관련 공고', /택시/],
-    ['local-program', '지자체 별도 사업 관련 공고', /EV\s*드림|지역\s*할인|지방비|시비|도비|군비|구비/],
-    ['conditions', '신청·중복 조건 관련 공고', /별도\s*공고|중복\s*(?:지원|불가)|소급\s*지급/],
+    // The UI selects both low-income rule IDs; this is a common evidence subject,
+    // not an inference that a passenger rule applies to the current vehicle type.
+    ['lowIncomePassenger', '기초·차상위 관련 공고', /기초\s*(?:생활\s*)?수급|차상위|저소득(?:층)?/],
+    ['farmer', '농업인 관련 공고', /농업인|농업\s*경영체|농민/],
+    ['local-program', '지방비 관련 공고', /EV\s*드림|아이\s*조아|지역\s*할인|(?:제조|수입|제작)사\s*(?:추가\s*)?할인|지방비|시비|도비|군비|구비(?!\s*서류)/i],
+    ['conditions', '신청·중복 조건 관련 공고', /별도\s*공고|중복|동시\s*지원|차감|감액|공제|마감|종료|소진|해당\s*없음|소급\s*지급/],
   ] as const;
-  return definitions.flatMap(([id,label,pattern]) => {
-    const match = pattern.exec(text);
-    if (!match) return [];
-    const lineStart = text.lastIndexOf('\n', match.index) + 1;
-    let lineEnd = text.indexOf('\n', match.index);
-    if (lineEnd < 0) lineEnd = text.length;
-    const start = Math.max(lineStart, match.index - 60);
-    const end = Math.min(lineEnd, match.index + 180);
-    return [{id,label,excerpt:`${start > lineStart ? '…' : ''}${text.slice(start,end).trim()}${end < lineEnd ? '…' : ''}`}];
-  });
+  type Signal = LocalBenefitInfo['signals'][number];
+  type Kind = NonNullable<Signal['kind']>;
+  type Candidate = Signal & { kind: Kind; score: number; order: number };
+  const restriction = /중복[^.\n]{0,28}(?:불가|금지|제한)|동시\s*지원[^.\n]{0,20}(?:불가|금지)|택\s*(?:일|1)/;
+  const deduction = /차감|감액|공제/;
+  // These are mentions of a closure or a condition, not a claim that it is closed now.
+  const closure = /마감|종료|소진|해당\s*없음|접수\s*중단|지원\s*중단|미시행/;
+  const namedProgram = /EV\s*드림|아이\s*조아|지역\s*할인|(?:제조|수입|제작)사\s*(?:추가\s*)?할인/i;
+  const benefit = /(?:추가|별도)\s*(?:보조금|지원)|가산|추가금|지원\s*비율|(?:지원|할인)\s*(?:금액|단가)|\d+(?:[,.]\d+)?\s*(?:만\s*원|%|퍼센트)/;
+  const genericPriority = /우선\s*(?:지원|순위|배정)|별도\s*배정|배정\s*(?:물량|대수)|구비\s*서류/;
+  const rank: Record<Kind,number> = { restriction:600,deduction:500,closure:400,program:300,benefit:200,general:0 };
+  const candidates: Candidate[] = [];
+  let offset = 0;
+  for (const line of text.split('\n')) {
+    for (const [id,defaultLabel,pattern] of definitions) {
+      // Retain the strongest two excerpts for each subject while scanning every line.
+      // Input is capped at 24,000 characters, and no source text or URL becomes an award.
+      const matches = line.matchAll(new RegExp(pattern.source, pattern.flags.includes('i') ? 'gi' : 'g'));
+      for (const match of matches) {
+        const index = match.index ?? 0;
+        const start = Math.max(0,index - 70);
+        const end = Math.min(line.length,index + 190);
+        const snippet = line.slice(start,end).trim();
+        if (!snippet) continue;
+        const kind: Kind = restriction.test(snippet) ? 'restriction' : deduction.test(snippet) ? 'deduction'
+          : closure.test(snippet) ? 'closure' : namedProgram.test(snippet) ? 'program' : benefit.test(snippet) ? 'benefit' : 'general';
+        const label = id === 'local-program' && namedProgram.test(snippet) ? '지자체 별도 사업 관련 공고'
+          : id === 'conditions' && kind === 'restriction' ? '중복·신청 제한 관련 공고'
+          : id === 'conditions' && kind === 'deduction' ? '보조금 차감 관련 공고'
+          : id === 'conditions' && kind === 'closure' ? '마감·예산 조건 관련 공고' : defaultLabel;
+        const excerpt = `${start ? '…' : ''}${snippet}${end < line.length ? '…' : ''}`;
+        const candidate: Candidate = { id,label,excerpt,kind,score:rank[kind] + (benefit.test(snippet) ? 20 : 0)
+          + (namedProgram.test(snippet) ? 10 : 0) - (genericPriority.test(snippet) ? 15 : 0),order:offset + index };
+        if (candidates.some(item => item.id === id && item.excerpt === excerpt)) continue;
+        candidates.push(candidate);
+        const sameSubject = candidates.filter(item => item.id === id).sort((a,b) => b.score - a.score || a.order - b.order);
+        for (const discarded of sameSubject.slice(2)) candidates.splice(candidates.indexOf(discarded),1);
+      }
+    }
+    offset += line.length + 1;
+  }
+  const counts: Partial<Record<Kind,number>> = {};
+  const limits: Record<Kind,number> = { restriction:3,deduction:3,closure:3,program:3,benefit:5,general:2 };
+  const seenExcerpts = new Set<string>();
+  return candidates.sort((a,b) => b.score - a.score || a.order - b.order).filter(candidate => {
+    if (seenExcerpts.has(candidate.excerpt)) return false;
+    const count = counts[candidate.kind] ?? 0;
+    if (count >= limits[candidate.kind]) return false;
+    seenExcerpts.add(candidate.excerpt);
+    counts[candidate.kind] = count + 1;
+    return true;
+  }).slice(0,10).map(({id,label,excerpt,kind}) => ({id,label,excerpt,kind}));
 }
 
 export function localBenefitInfo(record: SubsidyRecord | undefined, context: LocalBenefitContext): LocalBenefitInfo {
@@ -102,5 +148,7 @@ export function localBenefitInfo(record: SubsidyRecord | undefined, context: Loc
     seen.add(notice.code);
     return [{code:notice.code,label,downloadUrl:expected}];
   });
+  // checkedAt verifies the current official notice index / ETC only. Attachment links
+  // and snippets do not establish that every attachment's monetary rules were reviewed.
   return {...result,checkedAt:context.checkedAt,sourceStatus:'live',noticeText,notices,signals:localBenefitSignals(noticeText)};
 }
