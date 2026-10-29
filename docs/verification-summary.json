@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-29T07:04:42.883Z",
+  "sourceUrls": [
+    "https://ev.or.kr/nportal/buySupprt/initPsLocalCarPirceAction.do",
+    "https://ev.or.kr/nportal/buySupprt/getLocalCarModelPrice.ajax",
+    "https://ev.or.kr/nportal/buySupprt/initSubsidyTargetVehicleAction.do",
+    "https://ev.or.kr/nportal/buySupprt/selectTargetVehicle.ajax",
+    "https://ev.or.kr/nportal/buySupprt/initSubsidyPaymentCheckAction.do"
+  ],
+  "summary": {
+    "regionsCompleted": 160,
+    "regionsSuccessful": 160,
+    "modelRows": 28518,
+    "numericPriceFieldsCompared": 142590,
+    "specMatchedRows": 24931,
+    "specUnavailableRows": 3587,
+    "specFieldsCompared": 74793,
+    "applicationDataMismatches": 0,
+    "officialArithmeticDiscrepancies": 0,
+    "sourceNationalDisagreements": 4,
+    "errors": 0
+  },
+  "statusResults": [
+    {
+      "vehicleType": "passenger",
+      "ok": true,
+      "checkedAt": "2026-10-29T07:03:48.266Z",
+      "rawRows": 161,
+      "authorities": 160,
+      "numericFieldsCompared": 960,
+      "fingerprint": "a2b6bc4ccb5f92eb77f4d227a070a796a0d52d6d905a47c412d59433af63fa91"
+    },
+    {
+      "vehicleType": "cargo",
+      "ok": true,
+      "checkedAt": "2026-10-29T07:03:54.546Z",
+      "rawRows": 161,
+      "authorities": 160,
+      "numericFieldsCompared": 960,
+      "fingerprint": "722923f6858c7c9bc9cb205fdf203c7088e915d9bbbb1430aac55c2adcc101db"
+    }
+  ],
+  "memory": {
+    "environment": {
+      "runtime": "v24.22.1",
+      "execArgv": [
+        "--max-old-space-size=64",
+        "--max-semi-space-size=4",
+        "--expose-gc",
+        "--import",
+        "tsx"
+      ],
+      "platform": "darwin",
+      "architecture": "arm64",
+      "exposedGc": true,
+      "scope": "Local Node.js process; this is not a measurement of a production Cloudflare Worker isolate."
+    },
+    "workload": {
+      "fixture": "Actual checked-in official datasets from four cities, two vehicle types, and national passenger/cargo status.",
+      "warmupReplacements": 100,
+      "measuredReplacements": 1000,
+      "simulatedRegionKeys": 160,
+      "fetches": 0
+    },
+    "limits": {
+      "vehicleEntries": 8,
+      "vehicleJsonBytes": 12582912,
+      "officialEntries": 2,
+      "officialJsonBytes": 6291456,
+      "heapGrowthAllowedBytes": 8388608,
+      "upstreamActive": 2,
+      "upstreamQueued": 16
+    },
+    "heap": {
+      "beforeBytes": 20925944,
+      "afterBytes": 19727584,
+      "retainedGrowthBytes": -1198360,
+      "afterCacheClearBytes": 18358144,
+      "rssBeforeBytes": 113803264,
+      "rssAfterBytes": 124813312,
+      "rssGrowthBytes": 11010048,
+      "rssAfterCacheClearBytes": 124829696
+    },
+    "retained": {
+      "vehicleEntries": 8,
+      "vehicleJsonBytes": 663520,
+      "officialEntries": 2,
+      "officialJsonBytes": 1257044
+    },
+    "cleanup": {
+      "afterClearEntries": 0,
+      "activeTimers": 0,
+      "peakTestTimers": 0,
+      "attachedAbortListeners": 0,
+      "vehiclePending": 0,
+      "subsidyPending": 0,
+      "upstream": {
+        "active": 0,
+        "queued": 0
+      },
+      "globalUpstream": {
+        "active": 0,
+        "queued": 0
+      }
+    },
+    "gate": {
+      "peakActive": 2,
+      "peakQueued": 16,
+      "overflowRejected": true,
+      "abortedQueueRemoved": true,
+      "successfulQueueListenerRemoved": true
+    },
+    "elapsedMs": 1714.971625,
+    "assertions": 2217,
+    "result": "passed"
+  },
+  "dependencyAudit": {
+    "scope": "npm audit --omit=dev",
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 3,
+      "critical": 1,
+      "total": 6
+    },
+    "packages": [
+      {
+        "name": "baseline-browser-mapping",
+        "severity": "moderate",
+        "range": ">=2.0.0 <2.11.0",
+        "fixAvailable": true
+      },
+      {
+        "name": "fast-uri",
+        "severity": "moderate",
+        "range": "3.0.0 - 3.1.8",
+        "fixAvailable": true
+      },
+      {
+        "name": "next",
+        "severity": "critical",
+        "range": "16.0.0 - 16.4.0",
+        "fixAvailable": {
+          "name": "next",
+          "version": "16.4.3",
+          "isSemVerMajor": false
+        }
+      },
+      {
+        "name": "sharp",
+        "severity": "high",
+        "range": "<0.35.5",
+        "fixAvailable": true
+      },
+      {
+        "name": "source-map-js",
+        "severity": "high",
+        "range": "1.0.0 - 1.2.1",
+        "fixAvailable": true
+      },
+      {
+        "name": "zod",
+        "severity": "high",
+        "range": "<4.6.6",
+        "fixAvailable": {
+          "name": "zod",
+          "version": "4.6.7",
+          "isSemVerMajor": true
+        }
+      }
+    ]
+  }
+}
