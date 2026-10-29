@@ -6,6 +6,8 @@
 
 Node.js 22.13 이상에서 `npm run dev`. `npm run build`로 Sites용 Cloudflare Worker를 생성합니다.
 
+GitHub Pages 화면은 `npm run build:pages`로 `dist-pages/`에 생성합니다. GitHub 저장소의 Pages Source를 GitHub Actions로 설정하면 `main` 커밋마다 검증과 빌드 후 `https://garykwon.github.io/website3/`에 게시합니다. Pages는 정적 호스팅이므로 금액·제원·잔여 대수는 기존 서버에서 매번 재조회합니다. Pages에서 로그인 없이 조회하려면 API 서버도 공개 접근이 가능해야 합니다. 서버는 정확히 `https://garykwon.github.io`에서 온 교차 출처 읽기만 허용하며 인증 쿠키를 공유하지 않습니다. 프런트엔드는 기존 Sites와 같은 화면·자동 갱신·URL 복원 처리를 사용합니다.
+
 ## 화면
 
 첫 화면은 그라디에이션 배경과 글래스 지역 검색창만 표시합니다. 지역 선택 후 제조사 → 차량 → 공식 세부 모델·휠·구동 방식을 고르면 국비·지방비와 합계가 즉시 바뀝니다. 도 검색은 시·군 선택으로 이어지며 구 검색은 담당 지원기관으로 연결합니다. 모바일에서는 예상 합계를 하단에 고정합니다.
