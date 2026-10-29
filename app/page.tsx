@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { amountWithTransition } from "@/lib/vehicle-configuration";
+import { apiUrl } from "@/lib/api-url";
 
 type Region = { id: string; province: string; name: string; aliases: string[]; children?: string[] };
 type Vehicle = {
@@ -95,7 +96,7 @@ export default function Home() {
     const controller = new AbortController();
     let mounted = true;
     const timeout = window.setTimeout(() => controller.abort(), 15_000);
-    fetch("/api/regions", { cache: "no-store", signal: controller.signal }).then(async r => {
+    fetch(apiUrl("/api/regions"), { cache: "no-store", signal: controller.signal }).then(async r => {
       if (!r.ok) throw new Error();
       return await r.json() as { regions: Region[] };
     }).then(d => {
@@ -160,7 +161,7 @@ export default function Home() {
     if (initial) { setData(null); setLoading(true); }
     const stale = (old: Data): Data => ({ ...old, sourceStatus: "cached", applicationStatus: "unknown", statusReason: null, remaining: null, availability: null, statusSourceStatus: "unavailable", records: old.records.map(r => ({ ...r, checks: r.checks.map(c => c.id === "freshness" ? { ...c, passed: false } : c) })) });
     try {
-      const response = await fetch(`/api/vehicles?region=${encodeURIComponent(regionId)}&type=${vehicleType}`, { cache: "no-store", signal: controller.signal });
+      const response = await fetch(apiUrl(`/api/vehicles?region=${encodeURIComponent(regionId)}&type=${vehicleType}`), { cache: "no-store", signal: controller.signal });
       if (!response.ok) throw new Error();
       const next = await response.json() as Data;
       if (!Array.isArray(next.records) || next.regionId !== regionId || next.records.some(r => r.vehicleType !== vehicleType)) throw new Error();
